@@ -1,7 +1,10 @@
 ---
-layout: post
-title: Twizy Braking
-description: Twizy Braking Intro
+title: "Twizy Braking"
+excerpt: "Achieving automated braking"
+
+sidebar:
+  title: "Twizy Braking"
+  nav: Twizy Braking
 ---
 
 
