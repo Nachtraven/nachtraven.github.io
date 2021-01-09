@@ -5,6 +5,9 @@ excerpt: "Achieving automated braking"
 sidebar:
   title: "Twizy Braking"
   nav: Twizy Braking
+
+classes: wide
+
 ---
 
 

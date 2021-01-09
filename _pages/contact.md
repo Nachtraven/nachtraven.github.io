@@ -1,6 +1,8 @@
 ---
 title: "Contact me"
 permalink: /contact.md
+classes: wide
+
 ---
 
 
