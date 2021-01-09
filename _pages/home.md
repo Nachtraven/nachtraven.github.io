@@ -3,7 +3,6 @@ title: "Sean Nachtrab"
 layout: splash
 classes:
   - landing
-permalink: /
 date: 2021-01-01T12:05:20+00:00
 header:
   overlay_color: "#000"

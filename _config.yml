@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "air" # "default" , "aqua", "contrast", "dark", "dirt
 locale                   : "en-US"
 title                    : "A hub for my work"
 title_separator          : "-"
-subtitle                 : "A home for my work" # site tagline that appears below site title in masthead
+subtitle                 : # site tagline that appears below site title in masthead
 name                     : &name "Sean Nachtrab"
 description              : &description "A place for showing off my work"
 url                      : https://nachtraven.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
