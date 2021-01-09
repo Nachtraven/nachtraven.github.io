@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Twizy Braking
 description: Twizy Braking Intro
 ---
