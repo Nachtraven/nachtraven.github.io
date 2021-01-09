@@ -4,7 +4,7 @@ layout: splash
 classes:
   - landing
 permalink: /splash-page/
-date: 2016-03-23T11:48:41-04:00
+date: 2021-01-01T12:05:20+00:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

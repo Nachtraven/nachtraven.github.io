@@ -2,7 +2,7 @@
 title: "Contact me"
 layout: single
 permalink: /contact/
-date: 2016-03-23T11:48:41-04:00
+date: 2021-01-01T12:05:20+00:00
 
 classes: wide
 ---
