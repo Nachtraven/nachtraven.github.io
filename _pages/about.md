@@ -1,7 +1,8 @@
 ---
 title: "About"
+layout: single
+permalink: /about/
 date: 2021-01-01T12:05:20+00:00
-permalink: /about.md
 
 classes: wide
 ---
