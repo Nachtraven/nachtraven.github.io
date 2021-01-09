@@ -1,7 +1,8 @@
 ---
 title: "Contact me"
-excerpt: "Contact details"
+permalink: /contact.md
 ---
+
 
 ## Contact
 

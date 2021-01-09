@@ -22,6 +22,3 @@ Feel free to contact me via my [Github](https://github.com/Nachtraven) or [Linke
 The main elements are an electronic braking system detailed under Twizy Braking and a series of 3d printed parts that hold the camera and radar to the vehicle, photo below. Additionally, an aluminium frame is built in the space occupied by the rear seats in order to hold a battery and computer used for testing.
 
 ![Twizy with accessories](/assets/images/twizy_setup.jpg)
-
-![First test](/assets/images/braking.gif)
-![Second test](/assets/images/braking_2.mp4)
