@@ -74,7 +74,7 @@ author:
       # url: "mailto:sean.nachtrab@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://nachtraven.github.io/splash-page/"
+      url: "https://nachtraven.github.io/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Nachtraven"
