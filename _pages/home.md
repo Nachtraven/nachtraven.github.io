@@ -10,7 +10,7 @@ header:
   overlay_image: /assets/images/collage.jpg
   actions:
     - label: "Explore Projects"
-      url: "/"
+      url: "/projects/"
   
 excerpt: "BSc Computer Science with a major in artificial intelligence, with a particular interest in hardware and software prototyping."
 intro: 
@@ -20,7 +20,7 @@ intro:
 
   feature_row:
   - image_path: assets/images/working_on_twizy.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    image_caption: "Twizy"
     alt: "placeholder image 1"
     title: "Placeholder 1"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
