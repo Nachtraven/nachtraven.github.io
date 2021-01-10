@@ -1,9 +1,9 @@
 ---
 title: "Projects"
-layout: single
+layout: posts
 permalink: /projects/
 date: 2021-01-01T12:05:20+00:00
 classes: wide
 header:
-  image: /assets/images/collage.jpg
+  image: /assets/images/collage_smaller.jpg
 ---
