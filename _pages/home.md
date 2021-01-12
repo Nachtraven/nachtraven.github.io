@@ -10,10 +10,11 @@ header:
   actions:
     - label: "Explore Projects"
       url: "/projects/"
+  caption: ""
 excerpt: "BSc Computer Science with a major in artificial intelligence, with a particular interest in hardware and software prototyping."
 intro: 
-  - excerpt: 'Proficient with electrical circuits, arduinos, radars as well as mechanical and software prototyping, I currently work for OTIV, a company focusing on AI for rail vehicles, https://otiv.ai '
-  feature_row:
+  - excerpt: 'Proficient with electrical circuits, arduinos, radars as well as mechanical and software prototyping, I currently work for OTIV, a company focusing on AI for rail vehicles, https://otiv.ai'
+feature_row:
   - image_path: assets/images/working_on_twizy.jpg
     image_caption: "Twizy"
     alt: "placeholder image 1"
