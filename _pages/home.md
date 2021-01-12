@@ -11,12 +11,12 @@ header:
     - label: "Explore Projects"
       url: "/projects/"
   caption: ""
-excerpt: "BSc Computer Science with a major in artificial intelligence, with a particular interest in hardware and software prototyping."
+excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
 intro: 
-  - excerpt: 'Proficient with electrical circuits, arduinos, radars as well as mechanical and software prototyping, I currently work for OTIV, a company focusing on AI for rail vehicles, https://otiv.ai'
+  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin.'
 feature_row:
-  - image_path: assets/images/working_on_twizy.jpg
-    image_caption: "Twizy"
+  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
+    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder image 1"
     title: "Placeholder 1"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
@@ -31,7 +31,7 @@ feature_row:
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 feature_row2:
-  - image_path: /assets/images/niels_twizy_testing-2-th.jpg
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
     title: "Placeholder Image Left Aligned"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
@@ -39,13 +39,14 @@ feature_row2:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: /assets/images/relays.jpg
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
     title: "Placeholder Image Right Aligned"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
+
 
 ---
 
