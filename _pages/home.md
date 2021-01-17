@@ -6,7 +6,7 @@ date: 2020-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/collage.jpg
+  overlay_image: /assets/images/collage.jpg
   actions:
     - label: "Projects"
       url: "/projects/"
