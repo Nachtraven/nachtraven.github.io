@@ -29,8 +29,20 @@ feature_row:
     url: "/twizy-braking"
     btn_label: "More"
     btn_class: "btn--primary"
+  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+    title: "Placeholder 3"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+feature_row2:
+  - image_path: /assets/images/twizy-accel-pedal.jpg
+    alt: "acce"
+    title: "Accelerator Pedal Hacking"
+    url: "/home/"
+    btn_label: "More"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
+
+{% include feature_row id="feature_row2" type="left" %}
