@@ -2,7 +2,7 @@
 title: "Splash Page"
 layout: splash
 permalink: /home/
-date: 2016-03-23T11:48:41-04:00
+date: 2020-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -10,7 +10,7 @@ header:
   actions:
     - label: "Projects"
       url: "/projects/"
-  caption: ""
+  caption: "Collage"
 excerpt: "Computer Scientist working on advanced safety and autonomy solutions for rail vehicles at OTIV.ai"
 intro: 
   - excerpt: 'Graduate from King's College London and passionate about real world problem solving, with experience in fields as diverse as machine learning, engineering and electronics'
