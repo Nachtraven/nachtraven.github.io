@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/collage.jpg
   actions:
     - label: "Projects"
-      url: "/projects/"
+      url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Collage"
 excerpt: "Computer Scientist working on advanced safety and autonomy solutions for rail vehicles at OTIV.ai"
 intro: 
