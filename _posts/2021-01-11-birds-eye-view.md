@@ -14,4 +14,4 @@ Based on this article.
 
 Real world birds eye view tracking of the radar without camera overlay
 
-![Real world tracking](/assets/images/radar.gif)
+![Real world tracking](/assets/images/BEV.png)
