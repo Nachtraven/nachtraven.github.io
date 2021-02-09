@@ -17,8 +17,8 @@ intro:
 feature_row:
   - image_path: assets/images/niels_twizy_testing.jpg
     alt: "ars 408 radar"
-    title: "Prototyping"
-    excerpt: "Experience in prototyping"
+    title: "Experience in prototyping"
+    excerpt: "Automated braking, turning, driver assistance"
     url: "/ars-408-radar/"
     btn_label: "Explore prototyping"
     btn_class: "btn--primary"
@@ -32,6 +32,7 @@ feature_row:
   - image_path: /assets/images/disparity_traffic_image.png
     alt: "software"
     title: "Experience in software & ML"
+    excerpt: "Data visualisation, python software and image recognition"
     url: "/birds-eye-view/"
     btn_label: "Explore software"
     btn_class: "btn--primary"
