@@ -17,23 +17,23 @@ intro:
 feature_row:
   - image_path: assets/images/thumbnails/niels_twizy_testing.jpg
     alt: "ars 408 radar"
-    title: "Experience in prototyping"
+    title: "Prototyping"
     excerpt: "Automated braking, turning, driver assistance"
-    url: "/ars-408-radar/"
+    url: "/prototyping_home/"
     btn_label: "Explore prototyping"
     btn_class: "btn--primary"
   - image_path: /assets/images/thumbnails/working_on_twizy.jpg
     alt: "twizy"
-    title: "Experience in hardware"
+    title: "Hardware & Electronics"
     excerpt: "Radar, lidar, wireless video transmission"
-    url: "/twizy-braking"
+    url: "/hardware_home"
     btn_label: "Explore hardware"
     btn_class: "btn--primary"
   - image_path: /assets/images/thumbnails/disparity_traffic_image.png
     alt: "software"
-    title: "Experience in software & ML"
-    excerpt: "Data visualisation, python software and image recognition"
-    url: "/birds-eye-view/"
+    title: "Software & ML"
+    excerpt: "Data visualisation, python development and image recognition"
+    url: "/software_home/"
     btn_label: "Explore software"
     btn_class: "btn--primary"
 ---
