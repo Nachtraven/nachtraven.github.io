@@ -15,21 +15,21 @@ excerpt: "Computer Scientist working on advanced safety and autonomy solutions f
 intro: 
   - excerpt: 'Graduate from Kings College London and passionate about real world problem solving, with experience in prototyping, hardware and software'
 feature_row:
-  - image_path: assets/images/niels_twizy_testing.jpg
+  - image_path: assets/images/thumbnails/niels_twizy_testing.jpg
     alt: "ars 408 radar"
     title: "Experience in prototyping"
     excerpt: "Automated braking, turning, driver assistance"
     url: "/ars-408-radar/"
     btn_label: "Explore prototyping"
     btn_class: "btn--primary"
-  - image_path: /assets/images/working_on_twizy.jpg
+  - image_path: /assets/images/thumbnails/working_on_twizy.jpg
     alt: "twizy"
     title: "Experience in hardware"
     excerpt: "Radar, lidar, wireless video transmission"
     url: "/twizy-braking"
     btn_label: "Explore hardware"
     btn_class: "btn--primary"
-  - image_path: /assets/images/disparity_traffic_image.png
+  - image_path: /assets/images/thumbnails/disparity_traffic_image.png
     alt: "software"
     title: "Experience in software & ML"
     excerpt: "Data visualisation, python software and image recognition"
