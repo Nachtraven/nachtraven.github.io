@@ -13,7 +13,7 @@ header:
   caption: "Collage"
 excerpt: "Computer Scientist working on advanced safety and autonomy solutions for rail vehicles at OTIV.ai"
 intro: 
-  - excerpt: 'Graduate from Kings College London and passionate about real world problem solving, with experience in prototyping, hardware and software. \n Opinions expressed are solely my own and do not express the views or opinions of my employer.'
+  - excerpt: 'Graduate from Kings College London and passionate about real world problem solving, with experience in prototyping, hardware and software.'
 feature_row:
   - image_path: assets/images/thumbnails/niels_twizy_testing.jpg
     alt: "ars 408 radar"
