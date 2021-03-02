@@ -10,7 +10,7 @@ header:
   actions:
     - label: "Projects"
       url: "/projects/"
-  caption: "Collage"
+  caption: " "
 excerpt: "Computer Scientist working on advanced safety and autonomy solutions for rail vehicles at OTIV.ai"
 intro: 
   - excerpt: 'Graduate from Kings College London and passionate about real world problem solving, with experience in prototyping, hardware and software.'
