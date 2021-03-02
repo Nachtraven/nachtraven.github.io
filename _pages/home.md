@@ -36,8 +36,18 @@ feature_row:
     url: "/software_home/"
     btn_label: "Explore software"
     btn_class: "btn--primary"
+feature_row2:
+  - image_path: /assets/images/3d/3d_closeup.jpg
+    alt: "Linear rail closeup"
+    title: "Rigel 3D CoreXY Printer"
+    excerpt: 'All metal, fully enclosed, high temperature, coreXY 3D printer with a kinematic bed'
+    url: "/rigel3d/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
+
+{% include feature_row id="feature_row2" type="left" %}
