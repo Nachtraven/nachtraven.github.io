@@ -39,7 +39,7 @@ feature_row:
 feature_row2:
   - image_path: /assets/images/3d/3d_closeup.jpg
     alt: "Linear rail closeup"
-    title: "Rigel 3D CoreXY Printer"
+    title: "Rigel CoreXY 3D Printer"
     excerpt: 'All metal, fully enclosed, high temperature, coreXY 3D printer with a kinematic bed'
     url: "/rigel3d/"
     btn_label: "Read More"
