@@ -5,6 +5,7 @@ permalink: /prototyping_home/
 collection: portfolio
 entries_layout: grid
 classes: wide
+author_profile: true
 ---
 Experience with Software and Hardware prototypes ranging from long distance wireless communications and battery portable sensor suites to radar point cloud exploitation.
 
