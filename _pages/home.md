@@ -13,10 +13,10 @@ header:
   caption: " "
 excerpt: "Computer Scientist working on advanced safety and autonomy solutions for rail vehicles at OTIV.ai"
 intro: 
-  - excerpt: 'Graduate from Kings College London and passionate about real world problem solving, with experience in prototyping, hardware and software.'
+  - excerpt: 'Graduate from Kings College London passionate about prototyping, real world problem solving with hardware and software.'
 feature_row:
   - image_path: assets/images/thumbnails/sensorsuite.jpg
-    alt: "ars 408 radar"
+    alt: "Sensor suite"
     title: "Prototyping"
     excerpt: "Automated braking, turning, driver assistance"
     url: "/prototyping_home/"
