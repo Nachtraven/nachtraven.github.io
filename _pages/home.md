@@ -15,7 +15,7 @@ excerpt: "Computer Scientist working on advanced safety and autonomy solutions f
 intro: 
   - excerpt: 'Graduate from Kings College London and passionate about real world problem solving, with experience in prototyping, hardware and software.'
 feature_row:
-  - image_path: assets/images/thumbnails/niels_twizy_testing.jpg
+  - image_path: assets/images/thumbnails/sensorsuite.jpg
     alt: "ars 408 radar"
     title: "Prototyping"
     excerpt: "Automated braking, turning, driver assistance"
