@@ -15,7 +15,7 @@ excerpt: "Computer Scientist working on advanced safety and autonomy solutions f
 intro: 
   - excerpt: 'Graduate from Kings College London passionate about prototyping, real world problem solving with hardware and software.'
 feature_row:
-  - image_path: assets/images/thumbnails/sensorsuite.jpg
+  - image_path: assets/images/thumbnails/v1_complete.jpg
     alt: "Sensor suite"
     title: "Prototyping"
     excerpt: "Automated braking, turning, driver assistance"
