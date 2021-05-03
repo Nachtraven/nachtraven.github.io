@@ -13,11 +13,11 @@ A livox horizon was used with our own API.
 
 ![A lidar](/assets/images/lidar_hardware.jpg)
 
-Speaking of LiDAR, this other model from Livox was very poor
+Speaking of LiDAR, this MID-70 model from Livox was very poor
 
 ![A Bad lidar](/assets/images/bad_lidar.jpg)
 
-The images it produces
+The images the horizon produces
 
 ![Indoor LiDAR](/assets/images/lidar_indoors.jpg)
 
@@ -25,7 +25,7 @@ The images it produces
 
 Compared to stereo vision with a disparity map, it is a world of difference
 
-![Disparity](/assets/images/disparity_traffic.png)
+![Disparity](/assets/images/disparity_traffic_image.png)
 
 Now to mount it on our self braking twizy (Check out the other post about braking)
 
