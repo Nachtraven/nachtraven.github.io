@@ -12,5 +12,5 @@ BSc Computer Science with a major in artificial intelligence. I have a particula
 
 Proficient with electrical circuits, arduinos, radars, lidars as well as mechanical and software prototyping, I currently work for [OTIV, a company focusing on AI for rail vehicles](https://otiv.ai). I lead a pilot project for a major rail user in Belgium as well as participate in the development of autonomous software and hardware.
 
-Feel free to contact me via my [Github](https://github.com/Nachtraven) (that is unfortunately mostly private) or [Linkedin](https://www.linkedin.com/in/sean-nachtrab-14175715a/) if you require help or have questions.
+Feel free to email me or contact me via my [Github](https://github.com/Nachtraven) (that is unfortunately mostly private) or [Linkedin](https://www.linkedin.com/in/sean-nachtrab-14175715a/) if you require help or have questions.
 

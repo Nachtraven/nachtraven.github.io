@@ -1,5 +1,5 @@
 ---
-title: Protyping
+title: "Protyping"
 layout: collection
 permalink: /prototyping_home/
 collection: portfolio
