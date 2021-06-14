@@ -33,4 +33,12 @@ Nice railway yards ...
 ![Railway yard](/assets/images/railway_yard.jpg)
 
 
-V2 coming soon ...
+Final prototype
+
+![Final Prototype](/assets/images/V2_proto.jpg)
+
+Deployed on a train with our competitors
+
+![Deployed](/assets/images/v2_deployed.jpg)
+
+Our solution has since seen some changes following user feedback, thanks to our excellent software and rapid prototyping we managed to beat out competitors that took 2+ years and 600+k€ to come up with an inferior solution.

@@ -29,8 +29,20 @@ Compared to stereo vision with a disparity map, it is a world of difference
 
 Now to mount it on our self braking twizy (Check out the other post about braking)
 
+Dual cameras for testing different lenses as well as the aformentioned stereo vision algorithms
+
 ![Sensor suite](/assets/images/sensor_suite.jpg)
 
 ![Sensor suite on twizy](/assets/images/sensor_suite_twizy.jpg)
 
 ![Mounted on twizy](/assets/images/twizy_mounted.jpg)
+
+This lidar turned out to be quite average, a change was made to a superior ouster model and surround cameras worked well enough on our RSS prototype that we chose to implement these in too.
+
+![Proto of sensor suite](/assets/images/sensor_suite_proto.jpg)
+
+This gave us a solid 180° fov with high density lidar point cloud at 10+ fps
+
+![Proto of sensor suite](/assets/images/lidar_example.png)
+
+Quick example of the raw LiDAR results. For more, see BEV planning
