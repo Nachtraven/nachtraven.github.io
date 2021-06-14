@@ -4,7 +4,9 @@ excerpt: "Achieving automated braking"
 
 sidebar:
   title: "Twizy Braking"
-  nav: Twizy Braking
+  nav: Autonomous Twizy
+  title: "The build"
+  nav: The build
 toc: true
 toc_label: "Braking"
 ---
