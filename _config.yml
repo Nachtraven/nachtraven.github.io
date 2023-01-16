@@ -1,11 +1,10 @@
 # Site settings
-title: Andrej Karpathy blog
+title: Sean Nachtrab Blog
 email: 
-description: "Musings of a Computer Scientist."
+description: "Thoughts and projects about ML & engineering"
 baseurl: ""
-url: "http://karpathy.github.io"
-twitter_username: karpathy
-github_username:  karpathy
+url: "http://nachtraven.github.io"
+github_username:  nachtraven
 
 # Build settings
 markdown: kramdown
