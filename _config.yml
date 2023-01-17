@@ -1,7 +1,7 @@
 # Site settings
-title: Sean Nachtrab Blog
+title: Grounded - my Blog
 email: 
-description: "Thoughts and projects about ML & engineering"
+description: "Thoughts and projects about ML & engineering, Sean Nachtrab"
 baseurl: ""
 url: "http://nachtraven.github.io"
 github_username:  nachtraven
