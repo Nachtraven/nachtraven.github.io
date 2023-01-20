@@ -1,0 +1,17 @@
+---
+layout: post
+comments: false
+#title:  "Solar install"
+title: "Home Solar: SMA"
+excerpt: "Home install of a Sunny Tripower STP 8.0 Hybrid and Home manager"
+date:   2023-01-17 21:12:00
+mathjax: false
+---
+
+# Pitfalls of our Solar Install
+End of 2022 we finally got a solar installation set up after quite a few quotes.
+
+<div class="imgcap">
+<img src="/assets/solar/inverter_on_wall.jpg">
+</div>
+
