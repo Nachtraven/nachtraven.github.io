@@ -1,0 +1,52 @@
+---
+layout: post
+comments: false
+title: "The necessity of obstacles"
+excerpt: "How we explore the space of available options"
+date:   2023-03-11 22:31:00
+mathjax: false
+---
+
+As an engineer-type person, I have met plenty of other engineers; people building and designing solutions to problems, and have been fascinated by how  the space of available options is explored & how limitations are understood.
+
+I hope here to share my design ethos as well as why I believe that limitations are a key factor in producing innovation.
+
+--
+
+Lego is fun, you can build
+you don't have goals, you come up with them -> creativity through a lack of restrictions
+but this often leads to exploring directions that are easiest to explore -> spent time doing driving machines with wheels
+Still positive outcome but ultimately impact-less and lacking challenge. Get bored.
+
+In comes mindstorms, and colorblindness: The machine can see colors I can't -> reason to learn something hard, outside of my comfort zone
+Build a sorter and am now interested in coding -> more explorations through freedom.
+Minecraft modding -> creativity but ultimately made no fun mods or large projects
+
+[Why greatness](https://www.goodreads.com/en/book/show/25670869)
+["The oxymoron of data-driven innovation"](https://chelseatroy.com/2021/07/30/the-oxymoron-of-data-driven-innovation/) 
+
+
+
+
+
+
+
+
+As a kid I absolutely adored lego. I could spend hours building a design based off of ideas patched together from internet videos to solve a shortcoming of a new set I had,
+, I was more and more often faced with the limitations of the medium. Bricks can only make so many shapes, and even lego technic, with its gears, shafts and motors, often left me in situations where I simply couldn't fit my designs together. I spent countless hours watching videos of more skilled builders making cranes, offroaders, and bridge laying machines. 
+However 
+
+When you travel a bit outside of your cultural bubble, you get to experience a lot of new, albeit often pretty insignificant, differences in daily life.
+Being a tourist often means noticing the boxy small cars & plastic wrapped food in east asia, the fast foods in the US or the bicycles in the Netherlands. Most of the time however, little thought is had beyond those surface level experiences, and we return home without much of an understanding <em>why</em> people live differently.
+
+
+## Why does everyone own a BMW in eastern Europe?
+And why are cars in tokyo often so boxy?
+I enjoy observing personal vehicles as they are both incredible pieces of technology, dominant social elements and one of (if not the) largest cultural objects one can own. A car is the second largest expense in the US.
+
+
+## Sometimes, limitations can be good
+
+Sources:
+1. [CONSUMER EXPENDITURES](https://www.bls.gov/news.release/cesan.nr0.htm)
+2. [Chelsea Troy, The Oxymoron of “Data-Driven Innovation”](https://chelseatroy.com/2021/07/30/the-oxymoron-of-data-driven-innovation/)

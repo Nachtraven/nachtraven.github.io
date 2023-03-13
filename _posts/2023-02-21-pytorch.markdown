@@ -7,8 +7,7 @@ date:   2023-02-21 19:31:00
 mathjax: false
 ---
 
-# Belgian Pytorch meetup
-Is a regular meetup organized by Devoteam cloud, in Brussels, to discuss pytorch related projects and work.
+The Belgian Pytorch meetup Is a regular meetup organized by Devoteam cloud, in Brussels, to discuss pytorch related projects and work.
 
 During this presentation, both my colleagure Pieter Moors and myself presented talks about ML, concerning model optimization for real time inference (by Pieter) and model fine tuning by myself
 
