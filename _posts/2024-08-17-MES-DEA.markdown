@@ -1,0 +1,32 @@
+---
+layout: post
+comments: false
+title: "DIY electric car"
+excerpt: "MES-DEA motor, gearbox, controller re-use"
+date:   2024-08-17 12:00:00
+mathjax: false
+---
+
+Pulled a MES-DEA motor, gearbox, controller and anscilliary components from a crash damaged vehicle
+Planned to put it in a Fiat 126
+
+<div class="imgcap">
+<img src="/assets/mes-dea/components.jpg">
+</div>
+
+Opening up the gearbox to inspect what may need to be changed to allow reverse operation, as it is not supposed to turn backwards per the manual.
+
+<div class="imgcap">
+<img src="/assets/mes-dea/gearbox.jpg">
+</div>
+
+Finding the TIM600Handbook_7.2E.pdf is useful
+
+<div class="imgcap">
+<img src="/assets/mes-dea/mounted.jpg">
+</div>
+
+Mounting it this way will fail inspection. Laws have changed in Belgium over the course of the project, requiring multiple reworks. 
+Current rules are no chassis modifications, only re-use existing bolt points, no more than 10% weight increase per axle.
+
+The above mounting also has the downside of being reverse direction compared to what is stated in the manual. When opening, I did not identify clear issues with oil path. I'll need to reach out to someone more knowledgeable to ask about what can be done to have the gearbox reliably run in reverse.
