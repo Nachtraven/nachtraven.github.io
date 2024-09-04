@@ -1,0 +1,38 @@
+---
+layout: post
+comments: false
+title: "HBM hobby lathe"
+excerpt: "HBM Profi Norton 250 x 550 quick change toolpost"
+date:   2024-01-12 20:00:00
+mathjax: false
+---
+
+Always wanted my own machine tools, initially build myself a very poorly designed CNC as a kid, and more recently a toolchanging 3D printer.
+This HBM Profi Norton 250 x 550 is my first real "machine" tool, and priced acceptably at 1100 eur
+
+<div class="imgcap">
+<img src="/assets/hbm/lathe.jpg">
+</div>
+
+Placing the lathe on a strong surface that it can be bolted to helped enormoysly. Leveling was difficult and required puchasing proper shims.
+A quick change toolpost is a must
+
+<div class="imgcap">
+<img src="/assets/hbm/toolpost_1.jpg">
+</div>
+
+<div class="imgcap">
+<img src="/assets/hbm/toolpost_2.jpg">
+</div>
+
+Final toolpost is an Aa Max from Gedeihen on aliexpress. Be sure to shop around to not overpay
+
+<div class="imgcap">
+<img src="/assets/hbm/qctp.jpg">
+</div>
+
+Has been working well from the limited experience I have had with it
+
+<div class="imgcap">
+<img src="/assets/hbm/final_lathe.jpg">
+</div>

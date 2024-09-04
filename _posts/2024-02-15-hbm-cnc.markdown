@@ -1,0 +1,25 @@
+---
+layout: post
+comments: false
+title: "DIY CNC"
+excerpt: "CNC based on HBM BF25"
+date:   2024-04-12 18:02:00
+mathjax: false
+---
+
+Always wanted my own machine tools, previously purchased a lathe and wanted a cnc to machine parts not doable on a drill press/with a dremel
+This CNC is based on the HBM BF25, the conversion was started by someone else. 
+
+<div class="imgcap">
+<img src="/assets/hbm/initial_cnc.jpg">
+</div>
+
+I have since completed the conversion and cleaned it up for tighter tolerances
+Still needs to be encased to avoid aluminium filings flying everywhere
+
+<div class="imgcap">
+<img src="/assets/hbm/motor_mount.jpg">
+</div>
+
+Using the lathe to make parts for the CNC. 
+Still needs work!

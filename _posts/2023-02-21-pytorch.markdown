@@ -9,7 +9,7 @@ mathjax: false
 
 The Belgian Pytorch meetup Is a regular meetup organized by Devoteam cloud, in Brussels, to discuss pytorch related projects and work.
 
-During this presentation, both my colleagure Pieter Moors and myself presented talks about ML, concerning model optimization for real time inference (by Pieter) and model fine tuning by myself
+During this presentation, both my colleague Pieter Moors and myself spoke on ML, concerning model optimization for real time inference (by Pieter) and model fine tuning
 
 <div class="imgcap">
 <img src="/assets/pytorch-meetup-talk-2023-02-21/collage.jpeg">
@@ -17,4 +17,4 @@ During this presentation, both my colleagure Pieter Moors and myself presented t
 
 My slides are available [at this link](https://docs.google.com/presentation/d/1eq65oGrN_Xhh1gtXkj-oJ7D2pdgGwJpRxovZLqBvb0o/edit?usp=sharing)
 
-This was my first talk, both very stressful but also a great milestone!
+This was my first talk, a great milestone and learning experience!

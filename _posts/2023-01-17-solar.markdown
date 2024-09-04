@@ -1,7 +1,6 @@
 ---
 layout: post
 comments: false
-#title:  "Solar install"
 title: "Home Solar: SMA"
 excerpt: "Home install of a Sunny Tripower STP 8.0 Hybrid and Home manager"
 date:   2023-01-17 21:12:00
@@ -10,21 +9,16 @@ mathjax: false
 
 # Pitfalls of our Solar Install
 Test post.
-End of 2022 we finally got a solar installation set up after quite a few quotes.
-
-Total cost was as follows: Inverter STP 8.0 3120€, SMA Home manager 720€ and 22 Panels 410wp + install was 9561€. Cost was substantially increased due to ordering inverter separately as I didn't want a huauwei model (would have saved ~2000€)
-13401€, at a current cost of energy of 55 cents during the day will take ~24365kwh generated to pay itself back. Total from the 14th of Dec to 21st of feb is 349kwh. Payback time of ~4685 days or just under 13 years at winter production levels!
-
-This will be substantially improved once we trim the tree in front of the panels, with a battery and once sunnier weather arrives.
 
 <div class="imgcap">
 <img src="/assets/solar-2023-01-17/inverter_on_wall.jpg">
 </div>
 
-Our heatpump uses a lot of power, I would highly recommend springing for a geothermal model!
+Our heatpump uses a lot of power, I would highly recommend a geothermal model!
 
 <div class="imgcap">
 <img src="/assets/solar-2023-01-17/consumption_graph.png">
 </div>
 
-SMA also doesn't make it easy to integrate a Smart Grid ready heatpump (although daikin doesn't either!). Future post about doing this is in the works.
+SMA also doesn't make it easy to integrate a Smart Grid ready heatpump (although daikin doesn't either!).
+An ethernet cable was pulled from the pump to the inverter, and smartgrid relays on the inverter used to control the pump
