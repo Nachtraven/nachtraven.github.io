@@ -1,0 +1,26 @@
+---
+layout: post
+comments: false
+title: "FANUC LR Mate Robot arm"
+excerpt: "FANUC Lr Mate 200 il robot arm work"
+date:   2024-11-12 12:00:00
+mathjax: false
+---
+
+This Fanuc arm was up for auction for 100€, seemed like an interesting purchase.
+No controller was included, but overall opening it up has already been interesting, I look forward to reverse engineering it a bit to see if I can run it! Kinematics will be a challenge. 
+Seller told me he'd "Reach out if I find the controller" as if it was something that could be forgotten about under a rug.
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 300px" src="/assets/fanuc/blurred_arm.jpg">
+</div>
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 300px" src="/assets/fanuc/arm_facing.jpg">
+</div>
+
+Opening the arm up and I find datecodes for 1997, a bit older than the listing that stated early 2000s
+
+The Fanuc servos are AC, Model Beta 0.5/3000 and made in japan.
+
+If you have more deep knowledge or instructions on these I'm all ears

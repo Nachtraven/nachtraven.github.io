@@ -11,19 +11,19 @@ Pulled a MES-DEA motor, gearbox, controller and anscilliary components from a cr
 Planned to put it in a Fiat 126
 
 <div class="imgcap">
-<img src="/assets/mes-dea/components.jpg">
+<img style="max-width: 450px; max-height: 300px" src="/assets/mes-dea/components.jpg">
 </div>
 
 Opening up the gearbox to inspect what may need to be changed to allow reverse operation, as it is not supposed to turn backwards per the manual.
 
 <div class="imgcap">
-<img src="/assets/mes-dea/gearbox.jpg">
+<img style="max-width: 450px; max-height: 300px" src="/assets/mes-dea/gearbox.jpg">
 </div>
 
 Finding the TIM600Handbook_7.2E.pdf is useful
 
 <div class="imgcap">
-<img src="/assets/mes-dea/mounted.jpg">
+<img style="max-width: 450px; max-height: 300px" src="/assets/mes-dea/mounted.jpg">
 </div>
 
 Mounting it this way will fail inspection. Laws have changed in Belgium over the course of the project, requiring multiple reworks. 

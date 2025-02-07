@@ -11,15 +11,19 @@ Always wanted my own machine tools, previously purchased a lathe and wanted a cn
 This CNC is based on the HBM BF25, the conversion was started by someone else. 
 
 <div class="imgcap">
-<img src="/assets/hbm/initial_cnc.jpg">
+<img style="max-width: 400px" src="/assets/hbm/initial_cnc.jpg">
 </div>
 
 I have since completed the conversion and cleaned it up for tighter tolerances
 Still needs to be encased to avoid aluminium filings flying everywhere
 
 <div class="imgcap">
-<img src="/assets/hbm/motor_mount.jpg">
+<img style="max-width: 450px; max-height: 300px"  src="/assets/hbm/motor_mount.jpg">
 </div>
 
 Using the lathe to make parts for the CNC. 
 Still needs work!
+
+<div class="imgcap">
+<img src="/assets/hbm/milling.gif">
+</div>

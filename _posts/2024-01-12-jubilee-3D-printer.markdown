@@ -14,18 +14,25 @@ Initial specs were a print plate of 40x40x40cm, with 6 tools. The design for man
 
 Remote elastic twist lock was a major improvement to my design.
 <div class="imgcap">
-<img src="/assets/jubilee-3D-printer/REL.jpg">
+<img style="max-width: 450px; max-height: 300px" src="/assets/jubilee-3D-printer/REL.jpg">
 </div>
 During this time, the prusa design was also unveiled and released to the public
 
 Eventually, I decided to downsize to a jubilee design, then to a voron V0.2 due to lacking space
 
 <div class="imgcap">
-<img src="/assets/jubilee-3D-printer/voron.jpg">
+<img style="max-width: 450px; max-height: 300px" src="/assets/jubilee-3D-printer/voron.jpg">
 </div>
 
 VFA
 
 <div class="imgcap">
-<img src="/assets/jubilee-3D-printer/vfa.jpg">
+<img style="max-width: 450px; max-height: 300px" src="/assets/jubilee-3D-printer/vfa.jpg">
+</div>
+
+
+My jubilee
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 300px" src="/assets/jubilee-3D-printer/jubilee_sean.jpg">
 </div>
