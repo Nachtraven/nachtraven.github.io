@@ -1,0 +1,46 @@
+---
+layout: post
+comments: false
+title: "Guzzi V7 Dashcam - D6WL"
+excerpt: "Moto Guzzi V7 VSYS D6WL Dashcam Integration"
+date:   2025-02-08 19:00:00
+mathjax: false
+---
+
+I wanted a front/back dashcam for my motorcycle, that wouldn't break the bank and was easily integrated. Aliexpress has some ones available, this one is clearly originally a car model! I am also not sure I'd pay more for the waterproof version.
+Total installation time ~2h30
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 300px" src="/assets/guzzi/before_guzzi.jpg">
+</div>
+
+The purchased aliexpress model. Nowadays aliexpress prices vary wildly from week to week, and have generally gone up. There is probably a better deal to be found elsewhere. Don't forget to buy a decent 64GB sd card, detailed later is the drive time this provides.
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 300px" src="/assets/guzzi/ali.jpg">
+</div>
+
+Starting with the rear cam, to run the wire you need to fully take apart the rear fender. 
+
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 300px" src="/assets/guzzi/rear_fender.jpg">
+</div>
+
+This allows you to run the wire alongside the wire for the plate lighting. Make sure to use heatshrink after you have run the wires!
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 300px" src="/assets/guzzi/cam_mount.jpg">
+</div>
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 300px" src="/assets/guzzi/heat.jpg">
+</div>
+
+Front cam is currently between the forks, tbd if this is too dirty for long term use. Will also end up wrapping this cable section to protect it.
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 300px" src="/assets/guzzi/front_cam.jpg">
+</div>
+
+Storage requirements per hour, and driving images
