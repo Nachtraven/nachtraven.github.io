@@ -11,36 +11,36 @@ I wanted a front/back dashcam for my motorcycle, that wouldn't break the bank an
 Total installation time ~2h30
 
 <div class="imgcap">
-<img style="max-width: 450px; max-height: 300px" src="/assets/guzzi/before_guzzi.jpg">
+<img style="max-width: 450px; max-height: 500px" src="/assets/guzzi/before_guzzi.jpg">
 </div>
 
 The purchased aliexpress model. Nowadays aliexpress prices vary wildly from week to week, and have generally gone up. There is probably a better deal to be found elsewhere. Don't forget to buy a decent 64GB sd card, detailed later is the drive time this provides.
 
 <div class="imgcap">
-<img style="max-width: 450px; max-height: 300px" src="/assets/guzzi/ali.jpg">
+<img style="max-width: 450px; max-height: 500px" src="/assets/guzzi/ali.png">
 </div>
 
-Starting with the rear cam, to run the wire you need to fully take apart the rear fender. 
+Starting with the rear cam, to run the wire you need to fully take apart the rear fender. Needed to enlarge the holes and used a file, would recommend here just using a 6mm drill bit. Would avoid damaging the housing!
 
 
 <div class="imgcap">
-<img style="max-width: 450px; max-height: 300px" src="/assets/guzzi/rear_fender.jpg">
+<img style="max-width: 450px; max-height: 500px" src="/assets/guzzi/rear_fender.jpg">
 </div>
 
-This allows you to run the wire alongside the wire for the plate lighting. Make sure to use heatshrink after you have run the wires!
+This allows you to run the wire alongside the wire for the plate lighting. You need to take absolutely everything apart and be sure to zip tie the two wires together properly. Make sure to use heatshrink on the connector after you have run the wires! I added silicone grease too.
 
 <div class="imgcap">
-<img style="max-width: 450px; max-height: 300px" src="/assets/guzzi/cam_mount.jpg">
+<img style="max-width: 450px; max-height: 500px" src="/assets/guzzi/cam_mount.jpg">
 </div>
 
 <div class="imgcap">
-<img style="max-width: 450px; max-height: 300px" src="/assets/guzzi/heat.jpg">
+<img style="max-width: 450px; max-height: 500px" src="/assets/guzzi/heat.jpg">
 </div>
 
 Front cam is currently between the forks, tbd if this is too dirty for long term use. Will also end up wrapping this cable section to protect it.
 
 <div class="imgcap">
-<img style="max-width: 450px; max-height: 300px" src="/assets/guzzi/front_cam.jpg">
+<img style="max-width: 450px; max-height: 500px" src="/assets/guzzi/front_cam.jpg">
 </div>
 
 Storage requirements per hour, and driving images
