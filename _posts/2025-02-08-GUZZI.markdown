@@ -17,7 +17,7 @@ Total installation time ~2h30
 The purchased aliexpress model. Nowadays aliexpress prices vary wildly from week to week, and have generally gone up. There is probably a better deal to be found elsewhere. Don't forget to buy a decent 64GB sd card, detailed later is the drive time this provides.
 
 <div class="imgcap">
-<img style="max-width: 450px; max-height: 500px" src="/assets/guzzi/ali.png">
+<img style="max-width: 450px; max-height: 500px" src="/assets/guzzi/ali.jpg">
 </div>
 
 Starting with the rear cam, to run the wire you need to fully take apart the rear fender. Needed to enlarge the holes and used a file, would recommend here just using a 6mm drill bit. Would avoid damaging the housing!
@@ -42,5 +42,7 @@ Front cam is currently between the forks, tbd if this is too dirty for long term
 <div class="imgcap">
 <img style="max-width: 450px; max-height: 500px" src="/assets/guzzi/front_cam.jpg">
 </div>
+
+Powering the dashcam, I used the two pin switched connector under the seat, it is a Superseal AMP Tyco Fiat 2-pin connector. Luckily I had a three pin version laying around that I took the wires out of, although in de-pinning the connector I ended up having to cut the plastic housing. The current draw of the cam is minimal. 
 
 Storage requirements per hour, and driving images
