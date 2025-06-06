@@ -22,3 +22,7 @@ Our heatpump uses a lot of power, I would highly recommend a geothermal model!
 
 SMA also doesn't make it easy to integrate a Smart Grid ready heatpump (although daikin doesn't either!).
 An ethernet cable was pulled from the pump to the inverter, and smartgrid relays on the inverter used to control the pump
+
+A BYD HVM 13Kwh battery added, however a much smaller battery would likely have also worked, and I initially began by experimenting with [Dala's Battery Emulator project](https://github.com/dalathegreat/Battery-Emulator/).
+
+For vehicle charging, an OCPP1.6 or 2.0 point is necessary. Unfortunately SMA uses SEMP which means only their own charger and Mennekes Amtron are compatible, but you can bridge this by using home assistant or EVCC
