@@ -1,0 +1,27 @@
+---
+layout: post
+comments: false
+title: "SMA multiple battery inverter operation"
+excerpt: "Fixing the Neither an extension nor a replacement error on SMA inverters"
+date:   2023-01-17 21:12:00
+mathjax: false
+---
+
+# SMA Neither an extension nor a replacement is possible in this device class
+
+I was requested to help debug an SMA installation:
+
+You might have gotten the " Neither an extension nor a replacement is possible in this device class " on your sunnyportal after plugging a second inverter over speedwire to your sunny home manager 2.0
+
+I'm making this post as even SMA help couldn't solve the issue: the sunny home manager cannot operate more than one battery inverter, no matter the type, no matter the connection. It will not be able to operate a SMA tripower with an SMA SBS, or other combinations.
+
+If you plug two battery inverters in, the second one will use the home manager to measure the grid input/output and will oscillate with the already included battery inverter. The only way could be to use modbus commands and a separate piece of code.
+
+
+Their website doesn't specify this clearly. I only did this as a test to help troubleshoot, as we only use one inverter with battery regularly.
+
+<div class="imgcap">
+<img src="/assets/solar-2023-01-17/Screenshot from 2025-03-15 08-42-34.png">
+</div>
+
+Hope this helps. If you have a used, damaged or broken inverter or battery, do not hesitate to reach out.
