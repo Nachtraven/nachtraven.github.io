@@ -3,7 +3,7 @@ layout: post
 comments: false
 title: "SMA multiple battery inverter operation"
 excerpt: "Fixing the Neither an extension nor a replacement error on SMA inverters"
-date:   2023-01-17 21:12:00
+date:   2025-06-21 14:00:00
 mathjax: false
 ---
 
