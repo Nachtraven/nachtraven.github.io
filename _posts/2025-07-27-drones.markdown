@@ -1,0 +1,30 @@
+---
+layout: post
+comments: false
+title: "Engineering"
+excerpt: "The birthplace of most of todays innovations are the diy projects of yesterdays hobbyists and reasearchers"
+date:   2025-07-28 19:00:00
+mathjax: false
+---
+
+I've been fascinated with engineering, the processes behind our machines as well as the simple act of making things, since I have been a child. I spent years combing through the huge piles of Science&Vie magazines at my granfathers.
+
+<div class="imgcap">
+<img src="/assets/drone/IMG_20170702_124636.jpg">
+</div>
+
+Over the past decade, we have witnessed an absolute explosion of things I had read about and played with as an early teen into widespread adoption. From crypto, VR and 3D printing to drones and computer vision, it appears as we all grew up, we kept working on our projects.
+
+However a common thread has alaways been the process of industrializing and/or mass marketing these ideas to a wider audience. It used to be a decade ago that you needed to order drone parts individually and assemble your own package to have something even mildly affordable:
+
+<div class="imgcap">
+<img src="/assets/drone/20200427_204603.jpg">
+</div>
+
+<div class="imgcap">
+<img src="/assets/drone/Screenshot from 2025-07-27 18-01-08.jpg">
+</div>
+
+But nowadays you can go out and buy a fully made, ready to deploy and use 3D printer, drone, VR setup, gaming pc etc.
+
+What projects are the youth working on today that will be commercialized tomorrow?
