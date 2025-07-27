@@ -2,7 +2,7 @@
 layout: post
 comments: false
 title: "Engineering"
-excerpt: "Todays innovations are the diy projects of yesterdays tinkerers"
+excerpt: "Todays innovations are the projects of yesterdays tinkerers"
 date:   2025-07-28 19:00:00
 mathjax: false
 ---
@@ -21,10 +21,12 @@ However a common thread has alaways been the process of industrializing and/or m
 <img style="max-width: 550px; max-height: 500px" src="/assets/drone/20200427_204603.jpg">
 </div>
 
+And ardupilot is still being used today, well over a decade later
+
 <div class="imgcap">
 <img style="max-width: 550px; max-height: 500px" src="/assets/drone/Screenshot from 2025-07-27 18-01-08.jpg">
 </div>
 
 But nowadays you can go out and buy a fully made, ready to deploy and use 3D printer, drone, VR setup, gaming pc etc.
 
-What projects are the youth working on today that will be commercialized tomorrow?
+Looking forward to seeing the projects being worked on today commercialized tomorrow
