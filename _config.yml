@@ -1,7 +1,7 @@
 # Site settings
 title: My Website
 email: 
-description: "Thoughts and projects about ML & engineering, Sean Nachtrab"
+description: "Repository of projects in engineering & ML, Sean Nachtrab"
 baseurl: ""
 url: "http://nachtraven.github.io"
 github_username:  nachtraven
