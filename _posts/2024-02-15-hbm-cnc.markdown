@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: false
-title: "DIY CNC"
+title: "DIY CNC mill"
 excerpt: "CNC based on HBM BF25"
 date:   2024-04-12 18:02:00
 mathjax: false
@@ -12,6 +12,12 @@ This CNC is based on the HBM BF25, the conversion was started by someone else.
 
 <div class="imgcap">
 <img style="max-width: 400px" src="/assets/hbm/initial_cnc.jpg">
+</div>
+
+It used a "DCNC ISEL complete ballscrew kit for BF20" - around 800€ just for the ballscrews! Thankfully these are high quality.
+
+<div class="imgcap">
+<img style="max-width: 400px" src="/assets/hbm/dcnc-isel-complete-ballscrew-kit-for-bf20-2007002-en-G.jpg">
 </div>
 
 I have since completed the conversion and cleaned it up for tighter tolerances

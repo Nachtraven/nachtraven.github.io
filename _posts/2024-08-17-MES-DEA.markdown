@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: false
-title: "DIY electric car"
+title: "Fiat 126 EV conversion"
 excerpt: "MES-DEA motor, gearbox, controller re-use"
 date:   2024-08-17 12:00:00
 mathjax: false
