@@ -10,6 +10,10 @@ Some talks I have given & articles about my work:
 Talks:
 1. [Belgian Pytorch Meetup](https://www.meetup.com/belgian-pytorch-meetup/events/291019684/) where I presented a talk about the life of a machine learning project, focused on fine tuning and common pitfalls. Blog with slides [here](https://nachtraven.github.io/2023/02/21/pytorch/)
 
+2. [UGhent racing LiDAR intro](https://www.ugentracing.be/) Presentation about LiDAR types from a high level. Much of the information was exclusively presented orally, but for those interested [here are the slides](/assets/talks/SEAN_NACHTRAB_OTIV_ughent_racing_presentation.pdf)
+
 
 Articles:
-1. [Meet the makers](https://www.cityfab3.brussels/meet-the-makers-sean-nachtrab-ingenieur-en-machine-learning/), an article promoting cityfab 3's markerspace
+1. [Methods for Survival analysis in liquid broth](https://nachtraven.github.io/talks/), Discussing methods for statistically founded analysis and comparison of MIC values
+
+2. [Meet the makers](https://www.cityfab3.brussels/meet-the-makers-sean-nachtrab-ingenieur-en-machine-learning/), an article promoting cityfab 3's markerspace
