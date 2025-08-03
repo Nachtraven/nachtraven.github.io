@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: false
-title: "Guzzi V7 Dashcam - D6WL"
+title: "VSYS D6WL Dashcam review - Guzzi V7"
 excerpt: "Moto Guzzi V7 VSYS D6WL Dashcam Integration"
 date:   2025-02-08 19:00:00
 mathjax: false
@@ -45,4 +45,17 @@ Front cam is currently between the forks, tbd if this is too dirty for long term
 
 Powering the dashcam, I used the two pin switched connector under the seat, it is a Superseal AMP Tyco Fiat 2-pin connector. Luckily I had a three pin version laying around that I took the wires out of, although in de-pinning the connector I ended up having to cut the plastic housing. The current draw of the cam is minimal. 
 
-Storage requirements per hour, and driving images
+You will need about 275mb/3minute clip per camera or about 183mb/minute for both cameras.
+
+Front example:
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 500px" src="/assets/guzzi/vlcsnap-2025-08-03-10h25m57s706.jpg">
+</div>
+
+
+Rear example (I installed it upside down):
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 500px" src="/assets/guzzi/vlcsnap-2025-08-03-10h26m34s648.jpg">
+</div>
+
+You won't be reading nuberplates from afar, and you do get vibration artifacts. Having sound is a nice bonus, but you don't hear much beyond the engine rumble.
