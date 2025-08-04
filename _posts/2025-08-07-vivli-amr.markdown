@@ -1,0 +1,15 @@
+---
+layout: post
+comments: false
+title: "Vivli AMR - Analysing MICs through the lens of Survival Analysis"
+excerpt: ""
+date:   2025-08-07 14:00:00
+mathjax: false
+---
+
+The [2025 Vivli AMR Surveillance Data Challenge](https://amr.vivli.org/data-challenge/data-challenge-overview/) aims to analyze multiple large datasets of Minimum Inhibitory Contents (MICs) to extract useful learnings from the data.
+
+<div class="imgcap">
+<img style="max-width: 550px; max-height: 500px" src="/assets/vivli/test.png">
+</div>
+
