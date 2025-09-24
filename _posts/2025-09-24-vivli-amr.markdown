@@ -2,8 +2,8 @@
 layout: post
 comments: false
 title: "Vivli AMR - Analysing MICs through the lens of Survival Analysis"
-excerpt: ""
-date:   2025-09-024 13:00:00
+excerpt: "Utilization of Kaplan-Meier curves for concentrations"
+date:   2025-09-24 13:00:00
 mathjax: false
 ---
 
