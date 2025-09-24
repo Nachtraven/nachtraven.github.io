@@ -14,7 +14,7 @@ Talks:
 
 
 Articles:
-1. [Vivli AMR - Analysing MICs through the lens of Survival Analysis](https://nachtraven.github.io/2025/08/07/vivli-amr/), Discussing methods for statistically founded analysis and comparison of MIC values
+1. [Vivli AMR - Analysing MICs through the lens of Survival Analysis](https://nachtraven.github.io/2025/09/24/vivli-amr/), Discussing methods for statistically founded analysis and comparison of MIC values
 
 2. [Meet the makers](https://www.cityfab3.brussels/meet-the-makers-sean-nachtrab-ingenieur-en-machine-learning/), an article promoting cityfab 3's markerspace
 
