@@ -3,7 +3,7 @@ layout: post
 comments: false
 title: "Vivli AMR - Analysing MICs through the lens of Survival Analysis"
 excerpt: ""
-date:   2025-09-24 13:00:00
+date:   2025-09-024 13:00:00
 mathjax: false
 ---
 
@@ -16,5 +16,3 @@ This is a placeholder during the writing, expected final release Dec '25
 </div>
 
 Repository containing the work is located [HERE](https://github.com/Nachtraven/Vivli-AMR-Data-Challenge-Survival)
-
-<!-- Final vivli feedback: This is a very innovative idea with strong potential, but several key issues need to be addressed. There’s no information provided about the CABBAGE dataset—how it was collected, tested, or structured—which limits transparency and reproducibility. In the survival analysis, potential sampling bias should be considered, as subjects are not observed beyond certain points. Clarifying how missing data, clinical variables, and real-world biases are handled to contribute to the validity and applicability of the findings. -->
