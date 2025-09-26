@@ -1,0 +1,42 @@
+---
+layout: post
+comments: false
+title: "Large DIY USB C power bank review: 24 Cell IP5389"
+excerpt: "24 Cell DIY IP5389 Two-way Aliexpress battery"
+date:   2025-09-26 20:49:00
+mathjax: false
+---
+
+Review in the hopes you do not purchase this mountain of garbage. The "24 Cell DIY IP5389 Two-way Upgraded Acrylic No Welding No Battery 100W 120W 120000mah Power Bank Case Fast Charging Power Bank" is a very long title for a diy battery where you can slot your own batteries in.
+
+Very interesting in concept, maintainable, repairable and portable, with in my case 24 NCR18650B batteries totalling about 250 usable wh, or enough to charge my laptop twice.
+
+<div class="imgcap">
+<img style="max-width: 650px; max-height: 1650px" src="/assets/diy-24cell-battery/sale.png">
+</div>
+
+<div class="imgcap">
+<img style="max-width: 650px; max-height: 1650px" src="/assets/diy-24cell-battery/paid.png">
+</div>
+
+The price seemed reasonable, and after installing the batteries it powered on. However it works terribly:
+
+<div class="imgcap">
+<img style="max-width: 650px; max-height: 1650px" src="/assets/diy-24cell-battery/20250926_205141.jpg">
+</div>
+
+<div class="imgcap">
+<img style="max-width: 650px; max-height: 1650px" src="/assets/diy-24cell-battery/20250926_205029.jpg">
+</div>
+
+The battery self discharges very rapidly, meaning it cannot be filled and kept aside for more than a week or two. This doesn't even show on the battery itself, as it'll tell you 99%, however as soon as you power it in, it won't charge.
+
+You then need to plug the battery in and charge it, however it is then only filling the drained batteries, and overcharges slightly the others, very slowly.
+
+The efficiency when it works is ok.
+
+
+The casing is also an issue, the acrylic box doesn't support the battery holding PCB at all. I added tape to help, wich reduced the creaking, but it still creaks occasionally, and the screws come loose very easily, despite tightening. It isn't the most portable due to sharp edges.
+
+
+So not very usable due to the self discharging issue, and needs a 3D printed case to be better.

@@ -7,8 +7,7 @@ date:   2024-11-12 12:00:00
 mathjax: false
 ---
 
-This Fanuc arm was up for auction at what seemed like an interesting purchase.
-No controller was included, but overall opening it up has already been interesting, I look forward to reverse engineering it a bit to see if I can run it! Kinematics will be a challenge. 
+This Lr Mate 200 il Fanuc arm was up for auction for a very low cost; no controller was included, but opening it has already been interesting, I look forward to reverse engineering it a bit to see if I can run it! Kinematics will be a challenge. 
 Seller told me he'd "Reach out if I find the controller" as if it was something that could be forgotten about under a rug.
 
 Datasheet:
