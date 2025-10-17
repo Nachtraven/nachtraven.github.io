@@ -20,7 +20,11 @@ Datasheet:
 <img style="max-width: 650px; max-height: 1650px" src="/assets/fanuc/fanuc_lr_mate_200i_datasheet-2.png">
 </div>
 
-Arm photos, not the cleanest!
+In french we call an item like this "dans son jus" to say that it comes "as is"
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/original_arm.jpg">
+</div>
 
 <div class="imgcap">
 <img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/blurred_arm.jpg">
@@ -37,5 +41,19 @@ Opening the arm up and I find datecodes for 1997, a bit older than the listing t
 </div>
 
 The Fanuc servos are AC, Model Beta 0.5/3000 and made in japan.
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/motor_faceplate.jpg">
+</div>
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/specs_connector.jpg">
+</div>
+
+The encoder is, I believe, a FANUC PULSECODER, model number A20B-8001-0560
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/encoder.jpg">
+</div>
 
 If you have more deep knowledge or instructions on these I'm all ears
