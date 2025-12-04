@@ -8,8 +8,6 @@ includelink: true
 This is my personal website for things I have done and want to share more easily.
 It's mainly photos and some basic text.
 
-All opinions and writing here is my own and done independently of any employer. I take the necessary safety precautions for all projects I undertake, do not replicate anything without proper expertise, PPE and training.
-
 You may be interested in my [talks and articles here](https://nachtraven.github.io/talks/)
 
 ---
@@ -24,6 +22,7 @@ King’s College London, UK
 BSc in Computer Science (Hons) — Major: Machine Learning, Minor: Cybersecurity
 09/2017 – 06/2020
 
+***
 
 R&D Engineer (part-time), OTIV
 09/2025 – present
@@ -39,3 +38,14 @@ Machine Learning Engineer, OTIV
 
 Software Engineer, OTIV
 09/2020 – 09/2023
+
+Software Intern, Contaynor
+06/2020 - 08/2020
+
+Webmaster & Analyst, Ommegang
+06/2018 - 08/2023
+
+
+---
+
+All opinions and writing here is my own and done independently of any employer. I take the necessary safety precautions for all projects I undertake, do not replicate anything without proper expertise, PPE and training.

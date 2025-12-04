@@ -3,7 +3,7 @@ layout: post
 comments: false
 title: "Volvo V60 Hybrid battery teardown"
 excerpt: "V60 Battery pack opening and analysis"
-date:   2025-12-04 16:39:00
+date:   2025-12-04 15:39:00
 mathjax: false
 ---
 
