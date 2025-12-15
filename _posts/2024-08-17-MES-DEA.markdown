@@ -30,3 +30,16 @@ Mounting it this way will fail inspection. Laws have changed in Belgium over the
 Current rules are no chassis modifications, only re-use existing bolt points, no more than 10% weight increase per axle.
 
 The above mounting also has the downside of being reverse direction compared to what is stated in the manual. When opening, I did not identify clear issues with oil path. I'll need to reach out to someone more knowledgeable to ask about what can be done to have the gearbox reliably run in reverse.
+
+Getting it all laid out and wired up to HV, I got to test the motor, controller and my simplified wiring:
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 300px" src="/assets/mes-dea/wiring.jpg">
+</div>
+
+And a short video, it is an incredibly loud motor/motor controller. Note I was using here a much lower voltage than the motor was originally programmed for, so that may be playing into it too. these tests were ran at approximately 80v which is the highest my temporary setup could go.
+
+<iframe src="https://photos.app.goo.gl/ZYKwFgDVD6zCVtDe6"></iframe>
+
+[GPhotos video of the motor](https://photos.app.goo.gl/ZYKwFgDVD6zCVtDe6)
+
