@@ -56,4 +56,36 @@ The encoder is, I believe, a FANUC PULSECODER, model number A20B-8001-0560
 <img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/encoder.jpg">
 </div>
 
+Extra photos, the grease was very old!
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/encoder1.jpg">
+</div>
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/encoder2.jpg">
+</div>
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/gear.jpg">
+</div>
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/encoder_position.jpg">
+</div>
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/gear.jpg">
+</div>
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/gearbox.jpg">
+</div>
+
+Its unfortunately not a standard NEMA size, but quite close! The threaded bolt in the gear prevents easy conversion though
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/compare_stepper.jpg">
+</div>
+
 If you have more deep knowledge or instructions on these I'm all ears

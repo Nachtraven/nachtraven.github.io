@@ -39,7 +39,5 @@ Getting it all laid out and wired up to HV, I got to test the motor, controller 
 
 And a short video, it is an incredibly loud motor/motor controller. Note I was using here a much lower voltage than the motor was originally programmed for, so that may be playing into it too. these tests were ran at approximately 80v which is the highest my temporary setup could go.
 
-<iframe src="https://photos.app.goo.gl/ZYKwFgDVD6zCVtDe6"></iframe>
-
 [GPhotos video of the motor](https://photos.app.goo.gl/ZYKwFgDVD6zCVtDe6)
 
