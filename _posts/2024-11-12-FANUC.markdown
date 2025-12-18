@@ -67,10 +67,6 @@ Extra photos, the grease was very old!
 </div>
 
 <div class="imgcap">
-<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/gear.jpg">
-</div>
-
-<div class="imgcap">
 <img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/encoder_position.jpg">
 </div>
 
