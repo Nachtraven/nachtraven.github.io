@@ -3,29 +3,40 @@ layout: default
 ---
 
 <div class="home">
-  
+
   {% assign featured = site.posts | where: "featured", true | sort: "featured_rank" %}
   {% if featured.size > 0 %}
     <section class="featured">
       <h2>Featured</h2>
+
       <div class="featured-grid">
         {% for post in featured %}
           <a class="featured-card" href="{{ post.url | relative_url }}">
-            <img src="{{ post.featured_image | relative_url }}"
+            {% if post.featured_image %}
+              <img
+                class="featured-thumb"
+                src="{{ post.featured_image | relative_url }}"
                 alt="{{ post.featured_alt | default: post.title }}"
-                loading="lazy">
+                loading="lazy"
+                width="128"
+                height="128"
+              >
+            {% endif %}
+
             <div class="featured-card-body">
-              <h3>{{ post.title }}</h3>
+              <h3 class="featured-title">{{ post.title }}</h3>
               {% if post.description %}
-                <p>{{ post.description }}</p>
+                <p class="featured-excerpt">{{ post.description }}</p>
               {% else %}
-                <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
+                <p class="featured-excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
               {% endif %}
             </div>
           </a>
         {% endfor %}
       </div>
     </section>
+
+    <hr class="home-divider">
   {% endif %}
 
   <ul class="posts">
