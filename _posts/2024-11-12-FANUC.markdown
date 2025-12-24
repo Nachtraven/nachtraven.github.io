@@ -2,7 +2,7 @@
 layout: post
 comments: false
 title: "FANUC LR Mate Robot arm"
-excerpt: "FANUC Lr Mate 200 il robot arm work"
+excerpt: "FANUC Lr Mate 200 il robot arm"
 date:   2024-11-12 12:00:00
 mathjax: false
 ---

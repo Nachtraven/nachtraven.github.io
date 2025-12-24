@@ -33,3 +33,33 @@ Still needs work!
 <div class="imgcap">
 <img src="/assets/hbm/milling.gif">
 </div>
+
+The electronics are running a PoKeys CNC 1.2
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 300px"  src="/assets/hbm/mill_elec/20240316_073334.jpg">
+</div>
+
+And MSD 50 5.6 stepper drivers, with meanwell 12V power supplies
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 300px"  src="/assets/hbm/mill_elec/20240316_212126.jpg">
+</div>
+
+Wiring is a bit messy overall, but this is a handover from the previous owners work
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 300px"  src="/assets/hbm/mill_elec/20240316_212135.jpg">
+</div>
+
+The on board computer is quite ancient, and has now been upgraded to an SSD, as it was dying
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 300px"  src="/assets/hbm/mill_elec/20240417_202257.jpg">
+</div>
+
+4GB DDR3 and C-70 APU, a dual core laptop cpu. When changing to the SSD following the hard drive repeatedly crashing its read head, I used windows 7 (32 bit!)
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 300px"  src="/assets/hbm/mill_elec/20250902_195545.jpg">
+</div>

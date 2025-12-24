@@ -18,6 +18,9 @@ Articles:
 
 2. [Meet the makers](https://www.cityfab3.brussels/meet-the-makers-sean-nachtrab-ingenieur-en-machine-learning/), an article promoting cityfab 3's markerspace
 
+---
+
+Don't hesitate to message if you want to know more!
 
 ---
 
