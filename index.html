@@ -25,11 +25,11 @@ layout: default
 
             <div class="featured-card-body">
               <h3 class="featured-title">{{ post.title }}</h3>
-              {% if post.description %}
+              <!-- {% if post.description %}
                 <p class="featured-excerpt">{{ post.description }}</p>
               {% else %}
                 <p class="featured-excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
-              {% endif %}
+              {% endif %} -->
             </div>
           </a>
         {% endfor %}
