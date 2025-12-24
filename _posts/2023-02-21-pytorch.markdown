@@ -9,7 +9,7 @@ mathjax: false
 featured: true
 featured_rank: 3
 featured_image: /assets/pytorch-meetup-talk-2023-02-21/landys_detected.jpg
-featured_alt: "Fanuc motor ODrive control WIP"
+featured_alt: "object detection on Landys & Gyr electricity meter"
 
 ---
 
