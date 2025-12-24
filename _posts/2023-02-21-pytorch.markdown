@@ -5,6 +5,12 @@ title: "Belgian Pytorch meetup talk"
 excerpt: "Short introduction to common pitfalls of creating your first ML project"
 date:   2023-02-21 19:31:00
 mathjax: false
+
+featured: true
+featured_rank: 3
+featured_image: /assets/pytorch-meetup-talk-2023-02-21/landys_detected.jpg
+featured_alt: "Fanuc motor ODrive control WIP"
+
 ---
 
 The Belgian Pytorch meetup Is a regular meetup organized by Devoteam cloud, in Brussels, to discuss pytorch related projects and work.

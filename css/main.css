@@ -164,7 +164,11 @@ a:visited { color: #205caa; }
 /* Featured styles */
 /* ----------------------------------------------------------*/
 
-.featured { margin: 2rem 0; }
+.featured { 
+  margin: 2rem 0; 
+  /* line-height: 1.2; */
+  font-size: 32px;
+}
 
 .featured-grid {
   display: grid;
