@@ -7,7 +7,7 @@ layout: default
   {% assign featured = site.posts | where: "featured", true | sort: "featured_rank" %}
   {% if featured.size > 0 %}
     <section class="featured">
-      <h2>Featured</h2>
+      <!-- <h2>Featured</h2> -->
 
       <div class="featured-grid">
         {% for post in featured %}

@@ -161,6 +161,7 @@ a:visited { color: #205caa; }
   font-size: 15px;
   color: #818181;
 }
+
 /* Featured styles */
 /* ----------------------------------------------------------*/
 
@@ -171,8 +172,8 @@ a:visited { color: #205caa; }
 }
 
 .featured-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  display: flex;
+  flex-direction: column; /* vertical stack */
   gap: 1rem;
 }
 
@@ -222,7 +223,7 @@ a:visited { color: #205caa; }
 .featured-title {
   /* margin: 0 0 0.25rem 0; */
   line-height: 1.2;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .featured-excerpt {
