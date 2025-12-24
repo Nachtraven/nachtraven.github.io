@@ -162,6 +162,27 @@ a:visited { color: #205caa; }
   color: #818181;
 }
 
+/* Featured styles */
+/* ----------------------------------------------------------*/
+
+.featured { margin: 2rem 0; }
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.featured-card {
+  display: block;
+  text-decoration: none;
+}
+.featured-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+.featured-card-body { padding-top: 0.5rem; }
+
 
 /* Post styles */
 /* ----------------------------------------------------------*/
