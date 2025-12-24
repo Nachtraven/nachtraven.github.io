@@ -2,7 +2,7 @@
 layout: post
 comments: false
 title: "Retrofit - FANUC Robot arm"
-excerpt: "Retrofit of FANUC Lr Mate 200 il robot arm to modern standards for automation and medical robotics"
+excerpt: "Retrofit of FANUC Lr Mate 200 iL with ODrive"
 date:   2025-12-17 19:00:00
 mathjax: false
 

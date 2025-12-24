@@ -2,7 +2,7 @@
 layout: post
 comments: false
 title: "Voron V0 volcano hotend"
-excerpt: "Exploration on design and engineering for my voron V0.2 and a custom toolchanger"
+excerpt: "3D printer engineering: voron V0.2 and custom toolchanger"
 date:   2024-01-12 20:00:00
 mathjax: false
 
@@ -26,48 +26,43 @@ The original had a lot of problems, so many parts were swapped and upgraded.
 
 Starting from a regular volcano, with an upgraded bi-metallic heatbreak, I sawed off the upper section closest to the mounting head. Two holes are then drilled and tapped, and one side needs to be sanded down (after tapping to ensure the orientation) 
 
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 300px" src="/assets/jubilee-3D-printer/hotend_bimetal.jpg">
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/hotend_bimetal.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/heatsink.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/heatsink_sanded.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/hotend_assembled.jpg">
+  </div>
 </div>
 
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 300px" src="/assets/jubilee-3D-printer/heatsink.jpg">
-</div>
+LEDs were added to the head, the electricals were upgraded and a full sized hat was added using 2020 extrusions, as well as a chamber thermostat. Both essential in my opinion as it allows to heatsoak before a print. 
 
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 300px" src="/assets/jubilee-3D-printer/heatsink_sanded.jpg">
-</div>
 
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 300px" src="/assets/jubilee-3D-printer/hotend_assembled.jpg">
-</div>
-
-LEDs were added to the head
-
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 300px" src="/assets/jubilee-3D-printer/hoted_leds.jpg">
-</div>
-
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 300px" src="/assets/jubilee-3D-printer/final_hotend_pos.jpg">
-</div>
-
-The electricals were upgraded:
-
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 300px" src="/assets/jubilee-3D-printer/elec_panel.jpg">
-</div>
-
-A full sized hat was added using 2020 extrusions, as well as a chamber thermostat. Both essentia in my opinion as it allows to heatsoak before a print. 
-
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 300px" src="/assets/jubilee-3D-printer/voron.jpg">
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/hoted_leds.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/final_hotend_pos.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/elec_panel.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/voron.jpg">
+  </div>
 </div>
 
 Has some VFA
 
 <div class="imgcap">
-<img style="max-width: 450px; max-height: 300px" src="/assets/jubilee-3D-printer/vfa.jpg">
+<img style="max-width: 450px; max-height: 450px" src="/assets/jubilee-3D-printer/vfa.jpg">
 </div>
 
 ---
