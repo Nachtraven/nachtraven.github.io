@@ -16,12 +16,13 @@ featured_alt: "Fanuc motor ODrive control WIP"
 
 As a reminder, here is the datasheet:
 
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 750px" src="/assets/fanuc/fanuc_lr_mate_200i_datasheet-1.png">
-</div>
-
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 750px" src="/assets/fanuc/fanuc_lr_mate_200i_datasheet-2.png">
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/fanuc_lr_mate_200i_datasheet-1.png">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/fanuc_lr_mate_200i_datasheet-2.png">
+  </div>
 </div>
 
 After getting very familiar with open loop steppers, and building [Arctos](https://arctosrobotics.com/) a plastic 3D printed stepper driven arm, I wanted to try servos with a closed loop and FOC.
@@ -49,16 +50,17 @@ And some interesting similar projects for integrated modules:
 
 The "compatible" AMT212B from ODrive is more expensive than when purchased from other suppliers, and adds a substantial amount of BOM cost. I may try a [magnetic encoders](https://docs.odriverobotics.com/v/latest/articles/magnetic-encoders.html) in the future like the AS5600, MA702 or 14 bit AS5048, which would be a double win if I can also use a driver with an encoder built in. I would need reassurance that there is enough precision though, as well as things like [harmonic compensation](https://docs.odriverobotics.com/v/latest/manual/hardware-config.html#harmonic-compensation) that ODrive has.
 
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc_retrofit/shaft.jpg">
-</div>
 
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc_retrofit/shaft_roller.jpg">
-</div>
-
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc_retrofit/shaft_encoder.jpg">
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc_retrofit/shaft.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc_retrofit/shaft_roller.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc_retrofit/shaft_encoder.jpg">
+  </div>
 </div>
 
 For control I considered something integrated like the [MJBots hat pi hat](https://mjbots.com/products/mjbots-pi3hat-r4-5) but wanted to be able to run ROS2 and a Foxglove like interface. I have had experience with NVidia products at work and due to them being discontinued, found a very cheap Jetson Xavier used. It turned out to be an absolute pain to work with, as I had remembered from work, and I ended up on a different option: a fully fledged PC with a CAN-FD card. A USB [CAN-FD](https://canable.io/) is also an option
