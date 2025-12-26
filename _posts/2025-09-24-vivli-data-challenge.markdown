@@ -1,13 +1,13 @@
 ---
 layout: post
 comments: false
-title: "MICSA: Analysing MICs through the lens of Survival Analysis - Vivli AMR Data challenge"
-excerpt: "Antimicrobial Resistance study through Minimum Inhibitory Concentration Survival Analysis (MICSA)"
+title: "MICSA: MICs through the lens of Survival Analysis - Vivli AMR Data challenge"
+excerpt: "MICSA: Imperial College research work - 2025"
 date:   2025-09-24 13:00:00
 mathjax: false
 
 featured: true
-featured_rank: 4
+featured_rank: 3
 featured_image: /assets/vivli/ECDC_report_map.png
 featured_alt: "Imperial College research work - 2025"
 ---
@@ -28,7 +28,8 @@ The repository containing the work is located [HERE](https://github.com/Nachtrav
 <sup>b</sup>Imperial College London, Department of Infectious Disease Epidemiology
 <sup>c</sup>Imperial College London, Institute of Global Health Innovation
 
-**Journal:** 2025 Vivli AMR Data Challenge
+**Made for:** 2025 Vivli AMR Data Challenge
+
 **Keywords:** Survival analysis, AMR, Kaplan-Meier curves, ATLAS, CABBAGE
 
 ---
@@ -59,8 +60,9 @@ Typical methods for tracking the distributional shifts of AMR suffer from a lack
 <div class="imgcap">
 <img style="max-width: 450px; max-height: 650px" src="/assets/vivli/ECDC_report_map.png">
 </div>
-
+<p style="text-align:center">
 ECDC [7] Visualization methods: Left, fraction of invasive _E-Coli_ strains resistant to third generation cephalosporins in 2021, Right: Isolate quantities and percentage of resistance for Germany.
+</p>
 
 ### Survival analysis
 Survival analysis is an area of statistics commonly used in clinical trials or other (observational or interventional) studies; its aim is to compare two or more groups on the time to an event of interest [3]. Survival analysis has the major benefit of supporting censorship (one-sided uncertainty in outcome values), which is also inherent to the process of MIC testing due to the lower limit of detection (left censoring) and upper maximum concentration (right censoring) during the serial dilution process used to measure it. Survival analysis has recognized statistical methods for estimating $p$-values (based on the null hypothesis of samples coming from the same population), and is supported by software libraries such as [9] used here, in languages such as Python [10] and R [11].
@@ -76,12 +78,14 @@ To illustrate the use of Survival Analysis to compare distributions, we contrast
 <img style="max-width: 450px; max-height: 650px" src="/assets/vivli/germany_2013_2017_2021_log_scale.png">
 </div>
 
+<p style="text-align:center">
 | Year  | 2013   | 2017   | 2021   |
 |-------|--------|--------|--------|
 | n isolates | 614    | 483    | 209    |
 | resistance | 60.3%  | 58.2%  | 51.7%  |
 
 ATLAS, number of isolates and MIC distribution for _E. coli_ tested on ampicillin in Germany. The EUCAST breakpoint at 8 $mu$g/mL [12] is shown in red. The $x$-axis is on a log scale.
+</p>
 
 
 
@@ -96,12 +100,16 @@ Figure 3 clearly shows a distributional bias in the CABBAGE dataset towards high
 <img style="max-width: 450px; max-height: 650px" src="/assets/vivli/atlas_vs_cabbage_eu27.png">
 </div>
 
-ATLAS and CABBAGE datasets, number of isolates and MIC distribution for _E. coli_ tested on gentamicin in the EU, 2013 to 2021. Breakpoint set at 2 $mu$g/mL for illustration purposes.
-
+<p style="text-align:center">
 | Dataset | ATLAS   | CABBAGE |
 |---------|---------|---------|
 | n isolates | 8192    | 382     |
 | resistance | 9.9%    | 11.5%   |
+
+ATLAS and CABBAGE datasets, number of isolates and MIC distribution for _E. coli_ tested on gentamicin in the EU, 2013 to 2021. Breakpoint set at 2 $mu$g/mL for illustration purposes.
+</p>
+
+
 
 ## Discussion
 

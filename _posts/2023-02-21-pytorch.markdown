@@ -2,12 +2,12 @@
 layout: post
 comments: false
 title: "Belgian Pytorch meetup talk"
-excerpt: "Introduction to common pitfalls of creating your first ML project"
+excerpt: "Introduction to common pitfalls of your first ML project"
 date:   2023-02-21 19:31:00
 mathjax: false
 
 featured: true
-featured_rank: 3
+featured_rank: 4
 featured_image: /assets/pytorch-meetup-talk-2023-02-21/landys_detected.jpg
 featured_alt: "object detection on Landys & Gyr electricity meter"
 
