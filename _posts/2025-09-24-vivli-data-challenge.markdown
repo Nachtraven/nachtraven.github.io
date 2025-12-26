@@ -78,13 +78,14 @@ To illustrate the use of Survival Analysis to compare distributions, we contrast
 <img style="max-width: 450px; max-height: 650px" src="/assets/vivli/germany_2013_2017_2021_log_scale.png">
 </div>
 
-<p style="text-align:center">
 | Year  | 2013   | 2017   | 2021   |
 |-------|--------|--------|--------|
 | n isolates | 614    | 483    | 209    |
 | resistance | 60.3%  | 58.2%  | 51.7%  |
 
-ATLAS, number of isolates and MIC distribution for _E. coli_ tested on ampicillin in Germany. The EUCAST breakpoint at 8 $mu$g/mL [12] is shown in red. The $x$-axis is on a log scale.
+<p style="text-align:center">
+
+ATLAS, number of isolates and MIC distribution for _E. coli_ tested on ampicillin in Germany. The EUCAST breakpoint at 8 µg/mL [12] is shown in red. The _x_-axis is on a log scale.
 </p>
 
 
@@ -92,7 +93,7 @@ ATLAS, number of isolates and MIC distribution for _E. coli_ tested on ampicilli
 The right-hand table in Figure 2 does not make it clear whether the change in percentage is significant between years. On the other hand, the KM Curves on the left visually show a decrease in resistance. A major advantage is the toolbox of statistical tests at our disposal for deeper analysis: comparing 2017 and 2021 with 2013 using a Cox Proportional Hazards model, we get a non significant difference between 2013 and 2017, but a significant (p=0.04) difference between 2013 and 2021, allowing us to reject the null hypothesis that there is no change in hazards. The statistical toolbox at our disposal also enables a much richer analysis, which we omit here due to lack of space.
 
 ### Comparison of ATLAS with external data (CABBAGE)
-Survival analysis methods are also robust to distributional shifts, which we illustrate by selecting a different antibiotic, gentamicin, for the same time period (2013-2021). Figure 3 compares the ATLAS dataset to our CABBAGE dataset, currently undergoing final internal curation prior to release, which contains only isolates that have a matching genotype available [@cabbage_cite].
+Survival analysis methods are also robust to distributional shifts, which we illustrate by selecting a different antibiotic, gentamicin, for the same time period (2013-2021). Figure 3 compares the ATLAS dataset to our CABBAGE dataset, currently undergoing final internal curation prior to release, which contains only isolates that have a matching genotype available [CABBAGE is yet to be published].
 
 Figure 3 clearly shows a distributional bias in the CABBAGE dataset towards higher MIC values, confirming our suspicion that resistant isolates are somewhat more likely to get sequenced than susceptible ones. Note that this bias is less clear from the accompanying percentages (on the right).
 
@@ -100,13 +101,13 @@ Figure 3 clearly shows a distributional bias in the CABBAGE dataset towards high
 <img style="max-width: 450px; max-height: 650px" src="/assets/vivli/atlas_vs_cabbage_eu27.png">
 </div>
 
-<p style="text-align:center">
 | Dataset | ATLAS   | CABBAGE |
 |---------|---------|---------|
 | n isolates | 8192    | 382     |
 | resistance | 9.9%    | 11.5%   |
 
-ATLAS and CABBAGE datasets, number of isolates and MIC distribution for _E. coli_ tested on gentamicin in the EU, 2013 to 2021. Breakpoint set at 2 $mu$g/mL for illustration purposes.
+<p style="text-align:center">
+ATLAS and CABBAGE datasets, number of isolates and MIC distribution for _E. coli_ tested on gentamicin in the EU, 2013 to 2021. Breakpoint set at 2 µg/mL for illustration purposes.
 </p>
 
 
