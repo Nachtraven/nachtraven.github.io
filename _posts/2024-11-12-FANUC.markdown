@@ -8,46 +8,47 @@ mathjax: false
 ---
 
 This Lr Mate 200 il Fanuc arm was up for auction for a very low cost; no controller was included, but opening it has already been interesting, I look forward to reverse engineering it a bit to see if I can run it! Kinematics will be a challenge. 
-Seller told me he'd "Reach out if I find the controller" as if it was something that could be forgotten about under a rug.
+Seller told me he would "Reach out if I find the controller" as if it was something that could be forgotten about under a rug.
 
 Datasheet:
 
-<div class="imgcap">
-<img style="max-width: 650px; max-height: 1650px" src="/assets/fanuc/fanuc_lr_mate_200i_datasheet-1.png">
-</div>
-
-<div class="imgcap">
-<img style="max-width: 650px; max-height: 1650px" src="/assets/fanuc/fanuc_lr_mate_200i_datasheet-2.png">
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/fanuc_lr_mate_200i_datasheet-1.png">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/fanuc_lr_mate_200i_datasheet-2.png">
+  </div>
 </div>
 
 In french we call an item like this "dans son jus" to say that it comes "as is"
 
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/original_arm.jpg">
-</div>
-
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/blurred_arm.jpg">
-</div>
-
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/arm_facing.jpg">
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/original_arm.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/blurred_arm.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/arm_facing.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/arm_inners.jpg">
+  </div>
 </div>
 
 Opening the arm up and I find datecodes for 1997, a bit older than the listing that stated early 2000s
 
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/arm_inners.jpg">
-</div>
-
 The Fanuc servos are AC, Model Beta 0.5/3000 and made in japan.
 
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/motor_faceplate.jpg">
-</div>
-
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/specs_connector.jpg">
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/motor_faceplate.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/specs_connector.jpg">
+  </div>
 </div>
 
 The encoder is, I believe, a FANUC PULSECODER, model number A20B-8001-0560
@@ -58,24 +59,23 @@ The encoder is, I believe, a FANUC PULSECODER, model number A20B-8001-0560
 
 Extra photos, the grease was very old!
 
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/encoder1.jpg">
-</div>
-
-<div class="imgcap">
+<!-- <div class="imgcap">
 <img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/encoder2.jpg">
-</div>
+</div> -->
 
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/encoder_position.jpg">
-</div>
-
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/gear.jpg">
-</div>
-
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/gearbox.jpg">
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/encoder1.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/encoder_position.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/gear.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/gearbox.jpg">
+  </div>
 </div>
 
 Its unfortunately not a standard NEMA size, but quite close! The threaded bolt in the gear prevents easy conversion though
