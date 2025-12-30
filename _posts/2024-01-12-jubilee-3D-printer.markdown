@@ -67,20 +67,66 @@ Has some VFA
 
 ---
 
-Wanting something custom and enjoying the process of design and engineering, as many others have, I wanted to make my own 3D printer. I've owned quite a few, and wanted my own Toolchanger as a tinker project..
+Wanting something custom and enjoying the process of design and engineering, as many others have, I wanted to make my own 3D printer. I've owned quite a few, and wanted my own Toolchanger after seeing the E3D announcement. I knew nothing of CNCs or machine design, didn't know how to CAD, and blindly went forward.
 
-My toolchanger started in 22, took about a year and was originally independently developped, I then integrated some elements of the [Jubilee project](https://jubilee3d.com).
+I started independently in late 2020, and then found the (at the time) developping [Jubilee project](https://jubilee3d.com). The [E3D toolchanger](https://e3d-online.com/blogs/news/toolchanger-the-update-youve-all-been-waiting-for) was really the first "commercial" printer of the kind, but unfortunately was half baked and with little information online. The people buying them were not people making online content.
 
-Initial specs were a print plate of 40x40x40cm, with 6 tools. The design for manufacturing goal was to use 50cm 2020 alu extrusions, no cnc parts and minimize 3d printed part use
+Initial specs for my machine were a print space of 40x40x40cm, with 4-6 tools. The design for manufacturing goal was to use 2020 and 2040 alu extrusions, possibility of enclosing, no 3D cnc parts and minimize 3d printed part use. I did not want to go the voron/usual 3D printer route of tons of extrusions, and really liked the idea of the E3D design of keeping everything on one thick flat plane thanks to the alu, but instead of pursuing this fully, I tried to do a halfway house using waterjet cut aluminium plates. In retrospect, this was not thought through enough, nor did I allocate the required budget to get it done properly.
 
-Remote elastic twist lock was a major improvement to my design that I adopted.
 <div class="imgcap">
-<img style="max-width: 450px; max-height: 300px" src="/assets/jubilee-3D-printer/REL.jpg">
+<img style="max-width: 450px; max-height: 300px" src="/assets/jubilee-3D-printer/3D_diy/waterjet.jpg">
+</div>
+
+The machine design was driven by the goal of using waterjet cut aluminium plates, focusing on accurate CoreXY belt alignment, and regular hardware.
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/3D_diy/plates.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/3D_diy/align2.jpg">
+  </div>
+</div>
+
+I unfortunately cheaped out, didn't use thick enough stock, nor did I cut the whole flat plane and instead tried to use the plates as connectors. Bad idea, everything should have been one plate, and the bed could have come out of that same piece! I also learned a lot about machine design by repeatedly buying cheap or the wrong parts. Did you know these should have a metal core if under constant tension? And that there are recommended ways of clamping to avoid relying on the metal to rubber link to maintain tension? They're also cut from a drum, so are naturally not perfectly aligned! You need particular spacing/tollerance, and tight idlers destroy belts.
+
+Belts are also known to have different vibrations based on size, and sometimes smaller can be better! Example of a bad vs a good belt, note the core:
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/3D_diy/bad_belt.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/3D_diy/good_belt.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/3D_diy/bent.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/3D_diy/bent2.jpg">
+  </div>
+</div>
+
+Bad parts like the above bent rod were also a pain and constantly caused difficult to diagnose issues.
+
+The Jubilee [remote elastic twist lock (REL)](https://jubilee3d.com/index.php?title=The_Remote_Elastic_Lock) was an alternative to the motor-on-toolhead method of E3D, and it seemed a major improvement. I modified and re-used some aspects. In retrospect, it worked well, but wasn't worth the huge hassle and special parts to get it working.
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/REL.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/3D_diy/plastic_rel.jpg">
+  </div>
+</div>
+
+The waterjet cut tool plates were a success though, and I ended up using these for other purposes with a manual REL.
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 300px" src="/assets/jubilee-3D-printer/3D_diy/tool_plate.jpg">
 </div>
 During this time, the prusa design was also unveiled and released to the public.
 
-My own "jubilee" style printer:
+Once working, I printed a few parts and took it apart. It was too big for its own good and, as was shown by Bambulab later, too focused on the machine aspect. I did not consider enough external factors like filament storage and especially drying (which I now do using spool dryboxes based on ikea cake tins, [a better design is available here](https://printables.com/model/829357-filament-dry-box-for-big-25kg-spools)) and slicing of models. 
 
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 300px" src="/assets/jubilee-3D-printer/jubilee_sean.jpg">
-</div>
+I ended up after taking the DIY printer apart, owning a Jubilee, and an E3D toolchanger. I plan in the future to make my own enclosed printer with the learnings of this project, while learning more CAD.
