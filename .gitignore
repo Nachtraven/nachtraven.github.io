@@ -1,2 +1,11 @@
 _drafts/
 _site/
+
+/assets/jubilee-3D-printer/ignore/*
+
+_posts/2023-02-21-bias_variance_aleatoric_epistemic.markdown
+_posts/2024-11-30-engineering-manufacturing.markdown
+_posts/2024-12-25-TRAM.markdown
+
+readregister.py
+writeregister.py
