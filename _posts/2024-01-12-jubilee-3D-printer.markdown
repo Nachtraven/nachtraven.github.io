@@ -130,3 +130,8 @@ During this time, the prusa design was also unveiled and released to the public.
 Once working, I printed a few parts and took it apart. It was too big for its own good and, as was shown by Bambulab later, too focused on the machine aspect. I did not consider enough external factors like filament storage and especially drying (which I now do using spool dryboxes based on ikea cake tins, [a better design is available here](https://printables.com/model/829357-filament-dry-box-for-big-25kg-spools)) and slicing of models. 
 
 I ended up after taking the DIY printer apart, owning a Jubilee, and an E3D toolchanger. I plan in the future to make my own enclosed printer with the learnings of this project, while learning more CAD.
+
+---
+
+Here are relevant links for the E3D toolchanger:
+- [René Jurack has excellent tutorials](https://rene-jurack.de/toolchanger-tutorials/)

@@ -68,6 +68,11 @@ The "compatible" AMT212B from ODrive is more expensive than when purchased from 
 
 For control I considered something integrated like the [MJBots hat pi hat](https://mjbots.com/products/mjbots-pi3hat-r4-5) but wanted to be able to run ROS2 and a Foxglove like interface. I have had experience with NVidia products at work and due to them being discontinued, found a very cheap Jetson Xavier used. It turned out to be an absolute pain to work with, as I had remembered from work, and I ended up on a different option: a fully fledged PC with a CAN-FD card. A USB [CAN-FD](https://canable.io/) is also an option
 
+---
+
+Assembly of all the parts is greatly simplified by having the right tools. Over the years, I've acquired a lot of crimping "sets" as well as some tools of varying quality, but that did not prevent the absolute headache that is JST crimp connectors. [This is a useful explanation of JST connectors from IOT Expert](https://iotexpert.com/jst-connector-crimping-insanity/).
+
+
 
 A lidar and camera system is used for control and planning alongside the computer running ubuntu 24 and ROS2/Foxglove:
 
