@@ -72,15 +72,6 @@ For control I considered something integrated like the [MJBots hat pi hat](https
 
 Assembly of all the parts is greatly simplified by having the right tools. Over the years, I've acquired a lot of crimping "sets" as well as some tools of varying quality, but that did not prevent the absolute headache that is JST crimp connectors. [This is a useful explanation of JST connectors from IOT Expert](https://iotexpert.com/jst-connector-crimping-insanity/).
 
-
-
-A lidar and camera system is used for control and planning alongside the computer running ubuntu 24 and ROS2/Foxglove:
-
-<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
-  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
-    <img style="width: 100%; height: auto;" src="/assets/fanuc_retrofit/livox_temp.png">
-  </div>
-  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
-    <img style="width: 100%; height: auto;" src="/assets/fanuc_retrofit/livox_temp.png">
-  </div>
-</div>
+Foxglove is an excellent method for visualizing from ROS, although they moved away from being opensource/free. ROS also has some tutorials for 6 axis robotcs:
+- [6 Axis robot in ROS](https://control.ros.org/rolling/doc/ros2_control_demos/example_7/doc/userdoc.html)
+- [ROS in Foxglove Studio](https://docs.ros.org/en/foxy/How-To-Guides/Visualizing-ROS-2-Data-With-Foxglove-Studio.html)
