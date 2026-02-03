@@ -14,6 +14,10 @@ featured_alt: "Fanuc motor ODrive control WIP"
 
 [Previously mentioned in this blog post, my LR Mate 200 il Fanuc arm](https://nachtraven.github.io/2024/11/12/FANUC/) is now in the process of being retrofitted to be ran with modern electronics and controls, in parallel with a LiDAR and camera system.
 
+I am motivated by the prospects of automation in industry, and also because robots are fun to play with. 
+Most robots are too large to easily be moved and demo'd, or aren't industrially relevant due to their size. The LR Mate is still "portable" by a single person in a regular car or cargo bike, and if I integrate the control electronics into the arm and its base, small enough even for the most space restricted setups.
+Utilizing LiDARs and modern cameras also enables real "seeing" robots as opposed to the classical "blind" robotics that has been the status quo for decades.
+
 As a reminder, here is the datasheet:
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
@@ -127,6 +131,36 @@ There is also the excellent [Robot Academy](https://robotacademy.net.au/)
 
 And here is a list of other people with similar projects that may be of interest:
 - [manipylator](https://hackaday.io/project/197770-manipylator/log/240946-manipylator-part-2-simulation-motion-planning)
+
+---
+
+### Getting to the interesting bits
+
+Robotics hardware is a "solved" problem insofar as robotics have been able to hit <0.1mm accuracy repeatibly for quite some time, on the condition you have the budget. Current challenges lay in the software side, and this is recognized as what is driving future robotics use. Consortiums such as the [ARM institute](https://arminstitute.org/projects/) have some interesting projects. Robots, like nearly all CNC machines, have also always been "blind" to their environment. I consider this a major exploration direction for this project.
+
+Long term, for control I can run the CANbus either from the main computer or an MCU.
+I believe a structure of CAN <-> MCU <-> Linux may make more sense in order to better enforce safety and timings, but that's TBD. Short term the CAN ODrives will run directly from the main PC.
+
+Short list of relevant topics:
+
+- SocketCAN for python control
+- ROS 2 + ros2_canopen/ros2_control
+- ROS-Industrial is new to me but seems to have active industrial backing
+- MoveIt 2 as mentioned before as a motion planner can be used with ROS
+
+Technologies that are relevant for manufacturing. Many more in the MultiRobot MultiMachine Interoperability PDF:
+
+- MTConnect, it can interface with ROS-Industrial
+- OPC Unified Architecture: open62541, opcua_ros2_bridge, ros2-opcua
+- Modbus TCP/RTU for simpler and older or more versatile CNCs
+- Exposing ROS over network with rosbridge_suite or MQTT bridging
+
+<div class="imgcap">
+<img src="/assets/fanuc_retrofit/external_sources/siemens_arm_demo.png">
+</div>
+
+Machine tending in ROS seems to lack a lot of public sources.
+- https://github.com/mehmet-engineer/ROS_Machine_Tending
 
 ---
 
