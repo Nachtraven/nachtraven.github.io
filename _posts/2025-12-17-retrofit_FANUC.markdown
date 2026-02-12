@@ -162,6 +162,23 @@ Technologies that are relevant for manufacturing. Many more in the MultiRobot Mu
 Machine tending in ROS seems to lack a lot of public sources.
 - https://github.com/mehmet-engineer/ROS_Machine_Tending
 
+
+Option 1: Lean & direct (good for bring-up)
+- SocketCAN + can-utils + python-can
+- Your own kinematics/trajectory code (or very simple scripted moves)
+- External integration via Modbus TCP or simple TCP/REST service
+
+Option 2: ROS2 “standard modern robot”
+- SocketCAN/CANopen driver → ros2_control hardware interface → controllers
+- MoveIt 2 for planning + execution
+- External: OPC UA (PLC), MTConnect (CNC status), rosbridge (web UI), MQTT (plant messaging)
+
+Option 3: Industrial cell integration focus
+- Same ROS2 control core as option 2
+- Add ROS-Industrial-aligned tooling & conventions
+- Cell orchestration via MTConnect and/or OPC UA + hardwired safety
+
+
 ---
 
 ### Moving the arm

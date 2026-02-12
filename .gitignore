@@ -2,6 +2,8 @@ _drafts/
 _site/
 
 /assets/jubilee-3D-printer/ignore/*
+/assets/fanuc_retrofit/external_sources/ignore/*
+/assets/fanuc_retrofit/external_sources/fanuc robot arm/*
 
 _posts/2023-02-21-bias_variance_aleatoric_epistemic.markdown
 _posts/2024-11-30-engineering-manufacturing.markdown

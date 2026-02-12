@@ -55,14 +55,19 @@ LEDs were added to the head, the electricals were upgraded and a full sized hat 
     <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/elec_panel.jpg">
   </div>
   <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
-    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/voron.jpg">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/LEDs.jpg">
   </div>
 </div>
 
-Has some VFA
+Has some VFA but looks nice and prints well!
 
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 450px" src="/assets/jubilee-3D-printer/vfa.jpg">
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/vfa.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/voron.jpg">
+  </div>
 </div>
 
 ---
@@ -113,25 +118,42 @@ The Jubilee [remote elastic twist lock (REL)](https://jubilee3d.com/index.php?ti
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
   <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
-    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/REL.jpg">
+    <img style="width: 100%; height: 300px;" src="/assets/jubilee-3D-printer/REL.jpg">
   </div>
   <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
-    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/3D_diy/plastic_rel.jpg">
+    <img style="width: 100%; height: 300px;" src="/assets/jubilee-3D-printer/3D_diy/plastic_rel.jpg">
   </div>
 </div>
 
 The waterjet cut tool plates were a success though, and I ended up using these for other purposes with a manual REL.
 
-<div class="imgcap">
-<img style="max-width: 450px; max-height: 300px" src="/assets/jubilee-3D-printer/3D_diy/tool_plate.jpg">
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/3D_diy/tool_plate.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/jubilee-3D-printer/3D_diy/working_diy_TC.png">
+  </div>
 </div>
+
+
 During this time, the prusa design was also unveiled and released to the public.
 
 Once working, I printed a few parts and took it apart. It was too big for its own good and, as was shown by Bambulab later, too focused on the machine aspect. I did not consider enough external factors like filament storage and especially drying (which I now do using spool dryboxes based on ikea cake tins, [a better design is available here](https://printables.com/model/829357-filament-dry-box-for-big-25kg-spools)) and slicing of models. 
 
-I ended up after taking the DIY printer apart, owning a Jubilee, and an E3D toolchanger. I plan in the future to make my own enclosed printer with the learnings of this project, while learning more CAD.
+After tearing the printer apart, I owned a Jubilee, and finally an E3D toolchanger that I enclosed. I plan in the future to make my own enclosed printer with the learnings of this project, while learning more CAD.
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 450px" src="/assets/jubilee-3D-printer/3D_diy/E3D.jpg">
+</div>
 
 ---
 
 Here are relevant links for the E3D toolchanger:
 - [René Jurack has excellent tutorials](https://rene-jurack.de/toolchanger-tutorials/)
+
+And more recent photos including some mods: a chamber heater, multiple extra thermistors and an accelerometer:
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 450px" src="/assets/jubilee-3D-printer/3D_diy/E3D_tc_final.jpg">
+</div>
