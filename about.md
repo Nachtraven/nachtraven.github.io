@@ -9,11 +9,13 @@ This is my personal website for things I have done and want to share more easily
 It's mainly photos and some basic text.
 
 You may be interested in my [talks and articles here](https://nachtraven.github.io/talks/)
-You can reach out about any project via linkedin, my email firstname.lastname@[gmail or protonmail].com, or you may [book a 30 minute call here](https://calendly.com/sean-nachtrab/30min_chat); I am available most evenings and weekends.
+You can reach out about any project via linkedin, my email sean.nachtrab@ gmail .com, or you may [book a 30 minute call here](https://calendly.com/sean-nachtrab/30min_chat); I am available most evenings and weekends.
 
 ---
 
 My CV:
+
+---
 
 Ecole Polytechnique de Louvain, Belgium
 MSc in Computer Science — Health Informatics & Machine Learning
@@ -25,14 +27,14 @@ BSc in Computer Science (Hons) — Major: Machine Learning, Minor: Cybersecurity
 
 ***
 
-R&D Engineer (part-time), OTIV
-09/2025 – present
+Intern in AI, Data Foundation and Digital Twins, European Space Agency (ESA)
+06/2026 – 09/2026
 
 Visiting Research Intern, Imperial College London
 06/2025 – 09/2025
 
 R&D Engineer (part-time), OTIV
-09/2024 – 06/2025
+09/2024 – 06/2025 & 09/2025 – 06/2026
 
 Machine Learning Engineer, OTIV
 09/2023 – 09/2024
