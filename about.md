@@ -34,7 +34,7 @@ Visiting Research Intern, Imperial College London
 06/2025 – 09/2025
 
 R&D Engineer (part-time), OTIV
-09/2024 – 06/2025 & 09/2025 – 06/2026
+09/2024 – 06/2025 & 09/2025 – 04/2026
 
 Machine Learning Engineer, OTIV
 09/2023 – 09/2024

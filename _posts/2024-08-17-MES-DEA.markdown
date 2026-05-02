@@ -7,8 +7,24 @@ date:   2024-08-17 12:00:00
 mathjax: false
 ---
 
-Pulled a MES-DEA motor, gearbox, controller and anscilliary components from a crash damaged vehicle
-Planned to put it in a Fiat 126
+This project started in 2019 during the hype of EV and EV retrofits, and I had seen a car I absolutely adored that I thought would be a good candidate. I searched for a donor and found a very cheap but non running EV that had what appeared to be from online searches an easy to re-use motor, gearbox and controller: the [peugeot partner venturi](https://www.autojournal.fr/peugeot/partner/partner-origin-electric-venturi-193478.html). It was basically a road legal DIY retrofit by a Venturi, using off the shelf parts. It had a dead Zebra battery, had been ran into and the guy wanted it gone fast.
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/mes-dea/MES-DEA-Tim-600-ac-controller.svg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/mes-dea/ac_induction_motors_carraro.svg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/mes-dea/126.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/mes-dea/0a9f3015-7c53-4607-b6ab-5ea3668e3f25-image.png">
+  </div>
+</div>
+
+I've loved the Fiat 126 since seeing it in Rome and Poland, and had a very passionate man show me his. The space underneath was plentiful for mounting a motor. After pulling the hardware out:
 
 <div class="imgcap">
 <img style="max-width: 450px; max-height: 300px" src="/assets/mes-dea/components.jpg">
@@ -20,16 +36,16 @@ Opening up the gearbox to inspect what may need to be changed to allow reverse o
 <img style="max-width: 450px; max-height: 300px" src="/assets/mes-dea/gearbox.jpg">
 </div>
 
-Finding the TIM600Handbook_7.2E.pdf is useful
+Finding the TIM600Handbook_7.2E.pdf is useful.
 
 <div class="imgcap">
 <img style="max-width: 450px; max-height: 300px" src="/assets/mes-dea/mounted.jpg">
 </div>
 
 Mounting it this way will fail inspection. Laws have changed in Belgium over the course of the project, requiring multiple reworks. 
-Current rules are no chassis modifications, only re-use existing bolt points, no more than 10% weight increase per axle.
+Current rules are no chassis modifications, only re-use existing bolt points, no more than 10% weight increase per axle. [More details here.](https://www.vlaanderen.be/mobiliteit-en-openbare-werken/auto-en-motor/uw-voertuig-verbouwen-of-wijzigen/een-voertuig-met-een-verbrandingsmotor-ombouwen-naar-een-voertuig-met-een-elektrische-motor-of-waterstof-brandstofcel).
 
-The above mounting also has the downside of being reverse direction compared to what is stated in the manual. When opening, I did not identify clear issues with oil path. I'll need to reach out to someone more knowledgeable to ask about what can be done to have the gearbox reliably run in reverse.
+The above mounting also has the downside of being reverse direction compared to what is stated in the manual. When opening, I did not identify clear issues with oil path, I'll have to look into it again if I don't flip it.
 
 Getting it all laid out and wired up to HV, I got to test the motor, controller and my simplified wiring:
 
@@ -41,3 +57,4 @@ And a short video, it is an incredibly loud motor/motor controller. Note I was u
 
 [GPhotos video of the motor](https://photos.app.goo.gl/ZYKwFgDVD6zCVtDe6)
 
+I purchased a Orion 2 BMS. I had originally intended on using a volvo hybrid battery (visible elsewhere on this blog), but got rid of it as the project stalled.
