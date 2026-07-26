@@ -17,43 +17,43 @@ My CV:
 
 ---
 
-Founder of H13 - Working on Dyopter a tracker integrated into your bicycle light: https://dyopter.com/
+Founder of H13 - Working on Dyopter a tracker integrated into your bicycle light [dyopter.com](https://dyopter.com/)
 2026 - Ongoing
 
 ***
 
-Ecole Polytechnique de Louvain, Belgium
-MSc in Computer Science - Health Informatics & Machine Learning
+Ecole Polytechnique de Louvain, Belgium  
+MSc in Computer Science - Health Informatics & Machine Learning  
 09/2024 – 06/2026
 
-King’s College London, UK
-BSc in Computer Science (Hons) - Major: Machine Learning, Minor: Cybersecurity
+King’s College London, UK  
+BSc in Computer Science (Hons) - Major: Machine Learning, Minor: Cybersecurity  
 09/2017 – 06/2020
 
 ***
 
-AI, Data Foundation and Digital Twins
-European Space Operations Center ESOC - Intern
+AI, Data Foundation and Digital Twins  
+European Space Operations Center ESOC - Intern  
 06/2026 – 09/2026
 
-R&D Engineer - Systems deployment and compute
-OTIV - Part time
+R&D Engineer - Systems deployment and compute  
+OTIV - Part time  
 09/2024 – 06/2025 & 09/2025 – 04/2026
 
-Visiting Researcher
-Imperial College London - Intern
+Visiting Researcher  
+Imperial College London - Intern    
 06/2025 – 09/2025
 
-Machine Learning Engineer, OTIV
+Machine Learning Engineer, OTIV  
 09/2023 – 09/2024
 
-Software Engineer, OTIV
+Software Engineer, OTIV  
 09/2020 – 09/2023
 
-Software Intern, Contaynor
+Software Intern, Contaynor  
 06/2020 - 08/2020
 
-Webmaster & Analyst, Ommegang
+Webmaster & Analyst, Ommegang  
 06/2018 - 08/2023
 
 I also used to build computers and do electronics repair
