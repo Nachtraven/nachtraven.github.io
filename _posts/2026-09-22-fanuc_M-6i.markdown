@@ -1,0 +1,54 @@
+---
+layout: post
+comments: false
+title: "Fanuc M-6i with RJ-2 Welding robot"
+excerpt: "Connecting a fully blown robot for future work on H13"
+date:   2026-09-22 11:00:00
+mathjax: false
+
+featured: true
+featured_rank: 9
+featured_image: /assets/fanuc/m6i/arm_moving.jpg
+featured_alt: "My Fanuc M-6i with RJ2 being moved"
+---
+
+Only an idiot would have one robot at home.
+
+So here's my second - this time not torn apart, with a controller and _supposed_ to be in working condition, all for reasonable price (not including shipping). You know it's a reliable seller when they also have a concrete mixer in the background.  
+
+I want to use it as is to send commands, test computer vision and programming projects. Moving heavy things is a pain, and I look forward to having a forklift or at least palet jack for the company in the future.
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/m6i/screenshot_sale2.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/m6i/arm_moving.jpg">
+  </div>
+</div>
+
+The lectrical box is a delight to delve into: mostly nicely routed wires (with the exception of those clearly not done at the factory) and boards that allow board level repairs.
+
+The data on the DVDs is in the Github repo under /assets/fanuc/m6i
+
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/cabinet.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/fanuc_revH.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/roboguide64c.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/roboguide_64revD.jpg">
+  </div>
+</div>
+
+<!-- In french we call an item like this "dans son jus" to say that it comes "as is"
+
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 650px" src="/assets/fanuc/encoder.jpg">
+</div> -->

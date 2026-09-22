@@ -5,8 +5,8 @@ permalink: /about/
 includelink: true
 ---
 
-Welcome to my blog/website. My name is Sean, I am an engineer from Belgium with a passion for making things, solving problems and technology.
-This is my personal space for things I have done and want to share with others; It's mainly photos and some basic text.
+Welcome to my blog/website. My name is Sean Nachtrab, I am an engineer from Belgium with a passion for making things, solving problems and technology.
+This is my personal space to share what I do and want to share with others; It's mainly photos and some basic text.
 
 You may be interested in my [talks and articles here](https://nachtraven.github.io/talks/)
 You can reach out about any project via linkedin, my email sean.nachtrab@ gmail .com, or you may [book a 30 minute call here](https://calendly.com/sean-nachtrab/30min_chat); I am available most evenings and weekends.
@@ -17,7 +17,7 @@ My CV:
 
 ---
 
-Founder of H13 - Working on Dyopter a tracker integrated into your bicycle light [dyopter.com](https://dyopter.com/)
+Founder of [H13](https://h13.be/) working on automation and on Dyopter - a tracker integrated into your bicycle light [dyopter.com](https://dyopter.com/)
 2026 - Ongoing
 
 ***

@@ -1,7 +1,7 @@
 # Site settings
-title: My Website
+title: Sean Nachtrab's blog
 email: 
-description: "Repository of projects in engineering & ML, Sean Nachtrab"
+description: "Repository of projects in engineering, robotics and machine learning - Sean Nachtrab"
 baseurl: ""
 url: "http://nachtraven.github.io"
 github_username:  nachtraven

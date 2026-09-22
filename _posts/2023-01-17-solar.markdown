@@ -13,13 +13,14 @@ featured_alt: "Solar powering a household & cars in Belgium"
 ---
 
 # Pitfalls of our Solar Install
-Test post.
+
+In an effort to reduce costs and CO2, we had a solar installation placed. This was initially without a battery, the battery coming later. After 4+ years with SMA hardware, their inverters are good, but the software makes me want to tear my hair out. Same goes for our daikin heatpump - why aren't simple modbus registers exposed and smart home functions easily available?
 
 <div class="imgcap">
 <img src="/assets/solar-2023-01-17/inverter_on_wall.jpg">
 </div>
 
-Our heatpump uses a lot of power, I would highly recommend a geothermal model!
+Our heatpump uses a lot of power, I would highly recommend a geothermal model! This is standing power on a regular march day. A COP of about 4 is achieved by lowering the heating requirements with fans on the radiators. This is **absolutely essential**, without these fans we had to run the radiators at 50+°c, and got a cop between 3 and 3.8.
 
 <div class="imgcap">
 <img src="/assets/solar-2023-01-17/consumption_graph.png">
@@ -28,6 +29,19 @@ Our heatpump uses a lot of power, I would highly recommend a geothermal model!
 SMA also doesn't make it easy to integrate a Smart Grid ready heatpump (although daikin doesn't either!).
 An ethernet cable was pulled from the pump to the inverter, and smartgrid relays on the inverter used to control the pump
 
-A BYD HVM 13Kwh battery added, however a much smaller battery would likely have also worked, and I initially began by experimenting with [Dala's Battery Emulator project](https://github.com/dalathegreat/Battery-Emulator/).
+A BYD HVM 13Kwh battery added, however a much smaller battery would likely have also worked. You may be interested in [Dala's Battery Emulator project](https://github.com/dalathegreat/Battery-Emulator/).
 
-For vehicle charging, an OCPP1.6 or 2.0 point is necessary. Unfortunately SMA uses SEMP which means only their own charger and Mennekes Amtron are compatible, but you can bridge this by using home assistant or EVCC
+For vehicle charging, an OCPP1.6 or 2.0 point is necessary. Unfortunately SMA uses SEMP which means only their own charger and Mennekes Amtron are compatible (why SMA???), but you can bridge this by using home assistant or EVCC. We have a Keba P30 - but a "cut down" cheaped version with no power monitoring and no ability to start/stop charging or change from 3p to 1p.
+
+<div class="imgcap">
+<img src="/assets/solar-2023-01-17/evcc.png">
+</div>
+
+I would recommend using an "industrialized" din rail raspberry pi. Here I had to also painfully add a relay to control the on/off of our charger, because again German hardware manufacturers drop the ball on the software.
+
+
+<div class="imgcap">
+<img src="/assets/solar-2023-01-17/annual_comparison.png">
+</div>
+
+Our annual comparison shows pretty stable year to year performance. It also highlights the difference between an optimally angled and shade free system vs the practical real world: we rarely hit our peak production. We have trees blocking our views of the sky, as well as a nearly flat roof.
