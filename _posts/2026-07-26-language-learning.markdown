@@ -2,7 +2,7 @@
 layout: post
 comments: false
 title: "Improving your Dutch (Flemish) and French"
-excerpt: "Fun technical content for learning and perfecting NL and FR"
+excerpt: "Technical content for learning and perfecting NL and FR"
 date:   2026-07-26 16:00:00
 mathjax: false
 
