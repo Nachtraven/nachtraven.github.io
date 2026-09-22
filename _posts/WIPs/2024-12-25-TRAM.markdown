@@ -1,0 +1,15 @@
+---
+layout: post
+comments: false
+title: "Deploying products @OTIV"
+excerpt: "In-the-field work on trams and trains at OTIV"
+date:   2026-01-01 12:00:00
+mathjax: false
+
+featured: false
+# featured_rank: 99
+# featured_image: /assets/xx.jpg
+# featured_alt: "xx"
+---
+
+Over the past three years we've been to a few fun places for manufacturing

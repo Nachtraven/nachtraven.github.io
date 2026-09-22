@@ -7,7 +7,7 @@ date:   2026-09-22 11:00:00
 mathjax: false
 
 featured: true
-featured_rank: 9
+featured_rank: 2
 featured_image: /assets/fanuc/m6i/arm_moving.jpg
 featured_alt: "My Fanuc M-6i with RJ2 being moved"
 ---

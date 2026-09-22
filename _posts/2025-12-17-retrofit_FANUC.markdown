@@ -2,7 +2,7 @@
 layout: post
 comments: false
 title: "Retrofit - FANUC Robot arm"
-excerpt: "Retrofit of FANUC Lr Mate 200 iL with ODrive"
+excerpt: "Retrofit and modernization of FANUC Lr Mate 200 iL"
 date:   2025-12-17 19:00:00
 mathjax: false
 
@@ -43,6 +43,8 @@ Unfortunately, a lot of conversation about diy robotics has moved onto unsearcha
 
 I selected the ODrive S1 to prototype the arm, and to keep things simple I'm experimenting with their "upgraded" 16384 CPR AMT212B shaft encoder instead of going the cheaper magnetic route. I was happy to see separate mosfets, and a braking resistor, as I did not know if my motors would be thermally limited. I remember when the project used to be open source, but if it works with less hassle than the failed previous times I wanted to control a three phase motor I'll be happy.
 
+Edit: Adding this after trying to work with the ODrive for a while. The user experience of purchasing these drives is painful. Everything is an added cost, the metal heatsinks, the magnets, wiring etc; all at a mark-up of 2-6x. This makes it more likely for users to (like myself) skip parts or DIY it. I ran the motor drivers without heatsinks initially, which killed my drives unexpectedly. I made my own heatsinks with a sheet of aluminium now, but this 300eur waste could have been avoided had the drivers been included with magnets from the start.
+
 I compared the ODrive with some alternatives like:
 - MJBots Moteus C1/R4/N1/X1 - probably the closest to what I wanted
 - SimpleFOC - not "commercialized" and but these were more difficult to stack axes, less robust, lower voltage
@@ -52,12 +54,18 @@ I compared the ODrive with some alternatives like:
 - Source robotics [spectral](https://source-robotics.com/products/spectral-micro-bldc-controller) - lower voltage
 - Some Makerbase aliexpress drivers, but I wanted to help fund further development since my use case is a bit outside of the usual drone motors
 
+
 There are also some open source projects on hackaday/github, but where the driver felt like the project:
 - [Dagor](https://www.dagor.dev/)
 - [VESCular6](https://dongilc.gitbook.io/openrobot-inc)
 
+
 And some interesting similar projects for integrated modules:
 - [Robot actuator module](https://kreier.github.io/actuator/)
+
+
+There is also the Makerbase MKS XRIVE MINI.
+- These are available on Aliexpress, and are a copy of the older OSS ODrive variant 3.6. The MKS XDrive MINI costs about 37eur, and **includes a magnet, braking resistor and wiring harnesses.**
 
 
 ### Comprehensive projects
@@ -78,7 +86,7 @@ Once the decision was made, I waited a few months to build some budget and email
 <img style="max-width: 450px; max-height: 450px" src="/assets/fanuc_retrofit/shipped.png">
 </div>
 
-**Disclaimer:** When I reached out to ODrive, I asked if they would be interested in offering a discount code in exchange for the publicity of this post/linkedin/tutorials, which they accepted. No money exchanged hands and I still paid multiple hundreds of euros for all the parts. My opinions here and elsewhere were not reviewed by ODrive before posting.
+**Disclaimer:** When I reached out to ODrive, I asked if they would be interested in offering a discount code in exchange for the publicity of this post/linkedin/tutorials, which they accepted. No money exchanged hands and I still paid multiple hundreds of euros for all the parts. My opinions here and elsewhere were not reviewed by ODrive before posting. I am also not particularly happy in the end all things considered, and am not sure I will purchase all my arm drivers from them. Realistically I cannot rely on them long term for sourcing drivers, because the ~150eur/pc + magnets and wiring price makes any retrofit financially challenging.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
   <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
