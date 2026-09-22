@@ -34,16 +34,16 @@ The data on the DVDs is in the Github repo under /assets/fanuc/m6i
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
   <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
-    <img style="width: 100%; height: auto;" src="/assets/fanuc/cabinet.jpg">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/m6i/cabinet.jpg">
   </div>
   <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
-    <img style="width: 100%; height: auto;" src="/assets/fanuc/fanuc_revH.jpg">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/m6i/fanuc_revH.jpg">
   </div>
   <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
-    <img style="width: 100%; height: auto;" src="/assets/fanuc/roboguide64c.jpg">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/m6i/roboguide64c.jpg">
   </div>
   <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
-    <img style="width: 100%; height: auto;" src="/assets/fanuc/roboguide_64revD.jpg">
+    <img style="width: 100%; height: auto;" src="/assets/fanuc/m6i/roboguide_64revD.jpg">
   </div>
 </div>
 
