@@ -5,6 +5,11 @@ title: "Volvo V60 Hybrid battery teardown"
 excerpt: "V60 Battery pack opening and analysis"
 date:   2025-12-04 15:39:00
 mathjax: false
+
+featured: false
+# featured_rank: 99
+# featured_image: /assets/xx.jpg
+# featured_alt: "xx"
 ---
 
 During lockdown I purchased a 11-2015 Volvo V60 hybrid battery pack for a project that ended up not hapenning, I share here some photos of the innards. It is an obselete pack at this point, about half the power density of modern batteries.

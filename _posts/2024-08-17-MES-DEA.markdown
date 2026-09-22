@@ -5,6 +5,11 @@ title: "Fiat 126 EV conversion"
 excerpt: "MES-DEA motor, gearbox, controller re-use"
 date:   2024-08-17 12:00:00
 mathjax: false
+
+featured: false
+# featured_rank: 99
+# featured_image: /assets/xx.jpg
+# featured_alt: "xx"
 ---
 
 This project started in 2019 during the hype of EV and EV retrofits, and I had seen a car I absolutely adored that I thought would be a good candidate. I searched for a donor and found a very cheap but non running EV that had what appeared to be from online searches an easy to re-use motor, gearbox and controller: the [peugeot partner venturi](https://www.autojournal.fr/peugeot/partner/partner-origin-electric-venturi-193478.html). It was basically a road legal DIY retrofit by a Venturi, using off the shelf parts. It had a dead Zebra battery, had been ran into and the guy wanted it gone fast.

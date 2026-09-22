@@ -1,10 +1,15 @@
 ---
 layout: post
 comments: false
-title: "Engineering"
+title: "Making things"
 excerpt: "Todays innovations are the projects of yesterdays tinkerers"
 date:   2025-07-28 19:00:00
 mathjax: false
+
+featured: false
+# featured_rank: 99
+# featured_image: /assets/xx.jpg
+# featured_alt: "xx"
 ---
 
 I've been fascinated with engineering, the processes behind our machines as well as the simple act of making things, since I have been a child. I spent years combing through the huge piles of Science&Vie magazines at my granfathers, some with ominous titles

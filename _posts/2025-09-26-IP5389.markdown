@@ -5,6 +5,11 @@ title: "Large DIY USB C power bank review: 24 Cell IP5389"
 excerpt: "24 Cell DIY IP5389 Two-way Aliexpress battery"
 date:   2025-09-26 20:49:00
 mathjax: false
+
+featured: false
+# featured_rank: 99
+# featured_image: /assets/xx.jpg
+# featured_alt: "xx"
 ---
 
 Review in the hopes you do not purchase this mountain of garbage. The "24 Cell DIY IP5389 Two-way Upgraded Acrylic No Welding No Battery 100W 120W 120000mah Power Bank Case Fast Charging Power Bank" is a very long title for a diy battery where you can slot your own batteries in.

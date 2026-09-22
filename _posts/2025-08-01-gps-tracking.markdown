@@ -5,6 +5,11 @@ title: "Sinotrak GPS tracker ST 901"
 excerpt: "GPS tracker review/instructions and installation"
 date:   2025-09-01 20:45:00
 mathjax: false
+
+featured: false
+# featured_rank: 99
+# featured_image: /assets/xx.jpg
+# featured_alt: "xx"
 ---
 
 After getting my bicycle stolen, I decided it would be a worthwhile investment to buy tracker(s) of various types for my easily stolen goods. 

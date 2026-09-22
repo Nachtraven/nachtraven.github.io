@@ -5,6 +5,11 @@ title: "FANUC LR Mate Robot arm"
 excerpt: "FANUC Lr Mate 200 il robot arm"
 date:   2024-11-12 12:00:00
 mathjax: false
+
+featured: false
+# featured_rank: 99
+# featured_image: /assets/xx.jpg
+# featured_alt: "xx"
 ---
 
 This Lr Mate 200 il Fanuc arm was up for auction for a very low cost; no controller was included, but opening it has already been interesting, I look forward to reverse engineering it a bit to see if I can run it! Kinematics will be a challenge. 

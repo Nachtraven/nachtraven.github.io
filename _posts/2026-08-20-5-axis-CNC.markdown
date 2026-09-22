@@ -1,0 +1,115 @@
+---
+layout: post
+comments: false
+title: "The desktop 5 axis CNC race"
+excerpt: "Desktop CNC comparison of 5 axis machines"
+date:   2026-08-21 21:45:00
+mathjax: false
+
+featured: true
+featured_rank: 7
+featured_image: /assets/language_learning/books.jpg
+featured_alt: "Improving Flemish/Dutch"
+---
+
+I have loved the idea of at home CNC machining for a long time. In the past, the niche of 2000-5000 eur machines was the realm of the motivated DIYer, retrofitting a manual mill or perhaps buying an import portal mill out of aluminium. Similarly to 3D printers, very little effort and solutions existed for user friendlyness and integration: no probing, ATCs, tool length detectors, cooling or air burst, or even enclosures.
+Some tried to fix pieces of this: the [DMC2](https://shariffdmc.com/product/dmc2-cnc/) and Millenium Machines Milo/[Ratrig mill](https://ratrig.com/products/rat-rig-mill) came and went, and although the DMC2 seems interesting, it remains a kit that is not as user friendly (or marketed as hard) as the trendsetter in the mini CNC category: Makera and their [Carvera air](https://eu.makera.com/products/carvera-air). I have gotten the opportunity to see these in person working, and was not particularly impressed. Maybe the pro is better?
+
+These compact 3-axis, often with an optional 4-axis machines come in at an "affordable" price with existing software support. However I find the explosion of 5 axis mini machines fascinating, and I will compare those bellow - it is difficult to collate details on these because of their nature of using images (!!) in their product descriptions, and to simply not give certain pieces of information that need to be gleamed from watching videos.
+
+Additionally, it appears the problem of CAM has been "solved" (in a way) by these 5 axis machine companies using "AI" CAM. Something I believe is very relevant, but I am dubious about where the CAM runs, and the need to upload my designs to the cloud.
+
+## Reviews
+
+No money was exchanged, I have not used these machines, nor am I connected in any way to the manufacturers. I am comparing specs here because I couldn't find them in text form online - feel free to reach out if I'm wrong, or missing details. *All these products have million(s) in funding,* and it is important to note that **a lot of reviewers get a kickback from purchases (I have seen 5% and sometimes more) meaning they have a very large incentive to push you towards buying. They'd stand to make €250+ per sale!**
+
+
+## CNC comparison grid
+
+| Machine | Axes and machining mode | Work area or maximum workpiece | Weight | Spindle power | Spindle speed | Claimed positioning accuracy | Motion motors | Linear motion and guides | Tool changing | Price |
+|---|---|---:|---:|---:|---:|---|---|---|---|---:|
+| **Makera Carvera** | 3-axis; optional simultaneous 4th axis | 3-axis: 360x240x140 mm; rotary: Ø92x240 mm | ~50 kg | 200 W | 0-15,000 RPM | Motor resolution: 0.01 mm; spindle runout: <0.01 mm | Servos on X, Y and Z; NEMA 17 on rotary axis | Ball screws and linear rails | 6-tool ATC | ~$5500 |
+| **Makera Carvera Air** | 3-axis; optional simultaneous 4th axis | 3-axis: 300x200x130 mm; rotary: Ø92x200 mm | ~30 kg | 200 W | 0-13,000 RPM | Spindle runout: <0.01 mm; 0.01mm "Resolution" | Closed-loop steppers | Hardened linear rods; T8 threaded rods | Manual "quick-change" system | ~$2700 regular |
+| **Makera Z1** | 3-axis; optional 4th axis | 3-axis: 200x200x100; rotary: 90x150 | ~17kg | 150 W | 0-13000 | Spindle runout 0.01mm, 0.02mm "Resolution" | Steppers | One-piece cast frame; linear rails | Manual quick-change | ~$1100~ |
+| **NestWorks C500** | 3-axis; optional simultaneous 4th axis | ~230x213x128 mm with ATC; manufacturer information on the larger non-ATC area is unclear | 210 lb / 95 kg | 800 W | Up to 18,000 RPM | ±0.02 mm | Closed-loop NEMA 23 stepper motors | Precision linear guides and ball screws | ATC with RFID tool identification | $2,599 VIP; $2,799 early-bird; $4,699 MSRP |
+| **Xhorse3D Xmachine WM-100** | True simultaneous 5-axis with RTCP | Maximum workpiece: 100x100x100 mm | ~130 kg | 1,500 W | Up to 20,000 RPM | ±0.01 mm positioning repeatability | In-house servo motors; direct-drive rotary table | High-precision linear guides and ball screws; harmonic reducer on rotary axis | 6-tool ATC | ~$5,699 Kickstarter VIP price; final price subject to campaign |
+| **Xhorse3D Xmachine XM-100** | Simultaneous 5-axis | XYZ travel: 156x203x125 mm; maximum workpiece: 100x100x100 mm | ~130 kg | Not separately disclosed; 2.2 kW refers to rated machine power | Up to 20,000 RPM | Not numerically disclosed on the indexed official specification page | Custom servo motors; direct-drive rotary table | Precision linear guides and ball screws; harmonic reducer on A axis | 6-tool ATC | Quote or regional availability |
+| **TOPFAB TF500** | True simultaneous 5-axis | ~Ø120x100 mm | 75 kg | Not disclosed | Up to 60,000 RPM | ±0.005 mm positioning; ~0.02 mm RTCP | Not disclosed | Not disclosed | 8-tool ATC | $5,799 VIP; $5,999 early-bird; $8,999 MSRP |
+| **IFMAKER M5** | True simultaneous 5-axis with RTCP | 5-axis: Ø110x95 mm; 3-axis: 130x180x110 mm | 135 kg | 1.8 kW continuous; 2.2 kW peak | Up to 60,000 RPM | ±0.01 mm positioning; ±0.06 mm RTCP | In-house low-voltage servo drives with 17-bit absolute encoders | Exact guide model not disclosed | 4-tool ATC | Kickstarter early-bird from $5,299 |
+| **InfiMaker K1** | True simultaneous 5-axis with RTCP | 120x120x120 mm | ~110 kg | 1,500 W | Up to 20,000 RPM | 0.01 mm XYZ positioning accuracy or repeatability | Motor type not disclosed | Precision linear rails, preloaded ball screws and direct transmission | Six-position system consisting of five cutting tools and one integrated probe | Kickstarter from $5,199 |
+| **Pocket NC V2-10** | 3+2 indexing or simultaneous 5-axis | XYZ travel: 115.5x128.3x90.1 mm; A: −25° to +135°; B: continuous | ~14 kg | 200 W | 2,000-10,000 RPM | XYZ resolution: 6.1 µm; repeatability: ±50.8 µm; recommended part tolerance: ±0.127 mm | Five NEMA 17 stepper motors | Three lead screws with preloaded nuts; preloaded linear bearings; rotary worm drives | Manual ER11 collet | From $6,999 |
+| **Pocket NC V2-50 CHB or CHK** | 3+2 indexing or simultaneous 5-axis | XYZ travel: 115.5x128.3x90.1 mm; A: −25° to +135°; B: continuous | ~14 kg class | 200 W | 1,000-50,000 RPM | XYZ resolution: 6.1 µm; repeatability: ±50.8 µm; recommended part tolerance: ±0.127 mm | Five NEMA 17 stepper motors | Lead screws with preloaded nuts, preloaded linear bearings and rotary worm drives | Manual lever-operated CHB or CHK collet | From $9,999 |
+
+<!-- ## Features and differentiators
+
+| Machine | Enclosure | Automatic probing | Coolant or chip control | Software and control | Notable characteristics |
+|---|---|---|---|---|---|
+| **Makera Carvera** | Yes | Yes | Integrated dust collection and air assist | Makera Controller and Makera CAM; compatible with third-party CAM | Six-tool ATC, optional harmonic-drive rotary axis and optional laser |
+| **Makera Carvera Air** | Yes | Yes | External dust extraction required | Makera Controller and Makera CAM | Lower-cost Carvera platform with optional rotary axis and laser |
+| **Makera Z1** | Partial or configuration-dependent | Yes | AeroDust chip-removal system | Makera software ecosystem | Entry-level Makera platform with camera, optional rotary axis, laser and vacuum bed |
+| **NestWorks C500** | Yes | Yes | MQL coolant, air cooling and removable chip tray | Smart CAM and visual calibration system | RFID tool management, camera, ATC and heavier construction |
+| **Xhorse3D WM-100** | Yes | Yes | Air and coolant systems | XMaker AI-assisted CAM; standard G-code support | Camera positioning, automatic calibration and true RTCP machining |
+| **Xhorse3D XM-100** | Yes | Yes | Air cooling | Xmachine control system and third-party CAM support | Earlier Xmachine platform with horizontal architecture |
+| **TOPFAB TF500** | Yes | Yes | Not fully disclosed | TopStudio AI-assisted workflow | Eight-tool ATC, 7-inch touchscreen, HD camera and claimed ±0.005 mm positioning |
+| **IFMAKER M5** | Yes | Yes | Not fully disclosed | Integrated CAD, CAM and CNC suite | Cast-iron chassis, 60,000 RPM spindle and 17-bit absolute encoders |
+| **InfiMaker K1** | Yes | Yes | Optional coolant system | InfiStudio AI-assisted CAM | Tool-wear monitoring, breakpoint resume and one-piece cast structure |
+| **Pocket NC V2-10** | No, optional enclosure | Tool-length probe | External air or manual chip management | Kinetic Control, standard G-code and online simulator | Lightweight, established platform intended for education and prototyping |
+| **Pocket NC V2-50** | No, optional enclosure | Tool-length probe | Compressed-air supply required | Kinetic Control, standard G-code and online simulator | High-speed spindle optimized for small tooling | -->
+
+
+## Software
+
+Again, as with 3D printers and DIY CNC machines, this is where the bigger challenge lays: even if you're able to develop some mechanically sound hardware, the controller, and especially simultaneous 5 axis software with associated CAM/toolpath generation, are where the big innovations lay.
+Being able to automate probing and calibration, tool length setting, toolchanging, and generate toolpaths that avoid crashes is a lot of work that is nearly entirely transparent to the end user. All the 5 axis "diy" focused machines mentioned here use some AI cam, and I couldn't find any information on the controlers used. Getting my hands on the controller and CAM would be a huge win for DIYers and smaller industry, since today the hardware to have a good 4 and even 5 axis machine is getting much more affordable.
+
+
+
+## Quick comparison
+
+Overall this comparison left out some more obscure and difficult to price machines like [Yornew](https://www.yornew.com/en/), toys like [5axismaker](https://5axismaker.co.uk/) that have open loop steppers and are focused on foams/soft woods, and much larger and higher cost professional machines.
+
+### 3/4 Axis machining
+
+The **Carvera** vs **NestWorks C500** is an interesting comparison with the C500 being significantly heavier and with a lot more spindle power, although not having seros. It shares the ball screws, linear guides, automatic tool changer and MQL system.
+
+### The 5-axis machines
+
+These are the most interesting to me by their promised capabilities and the fact that they push the software side: I'm really hoping that their existance will bring 4 and 5 axis into the mainstream for both control and the CAM side.
+
+The **IFMAKER M5** has a high power spindle and heavy cast-iron structure, servo drives and 17-bit absolute encoders.
+
+The **TOPFAB TF500** 
+
+The **InfiMaker K1** 
+
+The **Xhorse3D WM-100** 
+
+The **Pocket NC** is genuinely light at approximately 14 kg. It is however more of a prototyping platform, akin to early 3D printers, although with a very high cost: the 200 W spindle, manual tool changes, open-frame construction, stepper motors and worm-driven rotary axes. It is more realistic with its tolerances though.
+
+The Pocket NC is more mature but has a seemingly small userbase. The control software and publicly accessible machining simulator are nice additions, and it does not rely on any proprietary AI stuff.
+
+## Important notes
+
+- **XYZ travel does not necessarily equal usable 5-axis work volume.** Rotary fixtures, spindle clearance, cutting-tool length and automatic tool-changer placement can reduce the actual machining envelope. Some, such as the PocketNC, have through axis stock holding possibilities, enabling machining of longer parts.
+
+- **Machine weight is closely linked to rigidity given the same construction.** All the 3 axis machines chose a fixed portal, and some of the 5 axis machines just add a double rotary stage. The portal construction, as opposed to the classic column mills seen in regular 3 axis machines, gives the highest stifness to weight ratio. 
+
+- **I wouldn't trust any of these for heavy/hard metals - and don't think you can use these to make money.** Given that I have not used any of these, I can't say for sure, but I am nearly certain that you wouldn't aim to do much more than aluminium on a regular basis. Steels appear possible but seem very slow, and with the stickout lengths in the videos, I doubt very accurate.
+
+Additionally, making money using these machines in general is not the goal. Prototyping and learning maybe, but serious buyers wouldn't want a poorly made 5 axis part. The 3 axis machines however appear capable of making useful parts repeatedly in aluminium and it appears that small batches are very feasible.
+
+### Links
+
+Networks C500 [official website](https://www.nestworks.ai/) and [kickstarter](https://www.kickstarter.com/projects/959480926/nestworks-c500-next-gen-smartest-cnc-with-industrial-power)
+
+Makera Carvera [official website](https://eu.makera.com/products/carvera)
+
+XHorse 3D WM100 [official website](https://xmachine.xhorse3d.com) and [kickstarter](https://www.kickstarter.com/projects/xhorse3d/xhorse3d-xmachine-wm-100-desktop-simultaneous-5-axis-cnc)
+
+TOPFAB TF500 [official website](https://store.topfab3d.com/) and [kickstarter](https://www.kickstarter.com/projects/topfab/topfab-tf500-5-axis-ai-cnc-your-desktop-your-fabrication)
+
+IFMAKER M5 [official website](https://www.ifmaker.xyz/) and [kickstarter](https://www.kickstarter.com/projects/ifmaker/ifmaker-m5-fully-integrated-desktop-5-axis-cnc)
+
+InfiMaker K1 [official website](https://infimaker.com/pages/infimaker-k1) and [kickstarter](https://www.kickstarter.com/projects/infimaker/infimaker-k1-the-pro-grade-desktop-5-axis-cnc)
+
+PocketNC [official website](https://www.pentamachine.com/all-products/p/pocket-nc-v2-10) and [their kickstarter ended a decade ago!](https://www.kickstarter.com/projects/1090944145/pocket-nc-the-first-5-axis-cnc-mill-for-your-deskt)

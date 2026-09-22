@@ -5,6 +5,11 @@ title: "SMA multiple battery inverter operation"
 excerpt: "Fixing the Neither an extension nor a replacement error on SMA inverters"
 date:   2025-06-21 14:00:00
 mathjax: false
+
+featured: false
+# featured_rank: 99
+# featured_image: /assets/xx.jpg
+# featured_alt: "xx"
 ---
 
 # SMA Neither an extension nor a replacement is possible in this device class

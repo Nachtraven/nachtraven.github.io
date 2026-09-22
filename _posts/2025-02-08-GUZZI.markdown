@@ -5,6 +5,11 @@ title: "VSYS D6WL Dashcam review - Guzzi V7"
 excerpt: "Moto Guzzi V7 VSYS D6WL Dashcam Integration"
 date:   2025-02-08 19:00:00
 mathjax: false
+
+featured: false
+# featured_rank: 99
+# featured_image: /assets/xx.jpg
+# featured_alt: "xx"
 ---
 
 I wanted a front/back dashcam for my motorcycle, that wouldn't break the bank and was easily integrated. Aliexpress has some ones available, this one is clearly originally a car model! I am also not sure I'd pay more for the waterproof version.

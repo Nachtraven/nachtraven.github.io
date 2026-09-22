@@ -5,6 +5,11 @@ title: "HBM hobby lathe"
 excerpt: "HBM Profi Norton 250 x 550 quick change toolpost"
 date:   2024-01-12 20:00:00
 mathjax: false
+
+featured: false
+# featured_rank: 99
+# featured_image: /assets/xx.jpg
+# featured_alt: "xx"
 ---
 
 Always wanted my own machine tools, initially build myself a very poorly designed CNC as a kid, and more recently a toolchanging 3D printer.

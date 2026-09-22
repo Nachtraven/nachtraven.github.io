@@ -1,0 +1,27 @@
+---
+layout: post
+comments: false
+title: "AI generated ads in public"
+excerpt: "Who is the target audience for these?"
+date:   2026-07-14 22:00:00
+mathjax: false
+
+featured: false
+# featured_rank: 99
+# featured_image: /assets/xx.jpg
+# featured_alt: "xx"
+---
+
+I've seen so many AI ads online - and that's somewhat to be expected. What I did not expect to see so fast was the apparition of AI ads in real life posters, and especially not from large companies.
+
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/ai-ads/ai_ad_20240822_082548.jpg">
+  </div>
+  <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
+    <img style="width: 100%; height: auto;" src="/assets/ai-ads/ai_ad_20240822_082548.jpg">
+  </div>
+</div>
+
+"Food" companies have been going at it too, with Wolt and KFC going at it for a while (although online)

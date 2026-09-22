@@ -6,10 +6,10 @@ excerpt: "3D printer engineering: voron V0.2 and custom toolchanger"
 date:   2024-01-12 20:00:00
 mathjax: false
 
-featured: true
-featured_rank: 2
-featured_image: /assets/jubilee-3D-printer/voron.jpg
-featured_alt: "Voron 0.2 with upgrades"
+featured: false
+# featured_rank: 2
+# featured_image: /assets/jubilee-3D-printer/voron.jpg
+# featured_alt: "Voron 0.2 with upgrades"
 ---
 
 For my Voron V0, I chose to rebuild a secondhand kit and upgrade it with high CRI LEDs for the bed and hotend, a volcano hotend, bimetallic heatbreak, LGX lite and a full sized hat. Most interesting is the volcano hotend on a voron V0.2, so I focus on that:
