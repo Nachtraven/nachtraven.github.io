@@ -7,7 +7,7 @@ date:   2025-09-24 13:00:00
 mathjax: false
 
 featured: true
-featured_rank: 3
+featured_rank: 2
 featured_image: /assets/vivli/ECDC_report_map.png
 featured_alt: "Imperial College research work - 2025"
 ---

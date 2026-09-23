@@ -2,19 +2,19 @@
 layout: post
 comments: false
 title: "Fanuc M-6i with RJ-2 Welding robot"
-excerpt: "Connecting a fully blown robot for future work on H13"
+excerpt: "Robotic testbed for software development"
 date:   2026-09-22 11:00:00
 mathjax: false
 
 featured: true
-featured_rank: 2
+featured_rank: 3
 featured_image: /assets/fanuc/m6i/arm_moving.jpg
 featured_alt: "My Fanuc M-6i with RJ2 being moved"
 ---
 
 Only an idiot would have one robot at home.
 
-So here's my second - this time not torn apart, with a controller and _supposed_ to be in working condition, all for reasonable price (not including shipping). You know it's a reliable seller when they also have a concrete mixer in the background.  
+So here's my second - this time not torn apart, with a controller and _supposed_ to be in working condition, all for reasonable price (not including shipping). You know it's a reliable seller when they also have a concrete mixer in the background. To be honest, this was a kneejerk purchase based on very little knowledge.
 
 I want to use it as is to send commands, test computer vision and programming projects. Moving heavy things is a pain, and I look forward to having a forklift or at least palet jack for the company in the future.
 
@@ -46,6 +46,8 @@ The data on the DVDs is in the Github repo under /assets/fanuc/m6i
     <img style="width: 100%; height: auto;" src="/assets/fanuc/m6i/roboguide_64revD.jpg">
   </div>
 </div>
+
+I wouldn't want to have to diagnose and do software repairs on the controller. You can definitely feel that it comes from the pre 2000s!
 
 <!-- In french we call an item like this "dans son jus" to say that it comes "as is"
 
