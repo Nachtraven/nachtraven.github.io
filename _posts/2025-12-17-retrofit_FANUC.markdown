@@ -43,7 +43,7 @@ Unfortunately, a lot of conversation about diy robotics has moved onto unsearcha
 
 I selected the ODrive S1 to prototype the arm, and to keep things simple I'm experimenting with their "upgraded" 16384 CPR AMT212B shaft encoder instead of going the cheaper magnetic route. I was happy to see separate mosfets, and a braking resistor, as I did not know if my motors would be thermally limited. I remember when the project used to be open source, but if it works with less hassle than the failed previous times I wanted to control a three phase motor I'll be happy.
 
-Edit: Adding this after trying to work with the ODrive for a while. The user experience of purchasing these drives is painful. Everything is an added cost, the metal heatsinks, the magnets, wiring etc; all at a mark-up of 2-6x. This makes it more likely for users to (like myself) skip parts or DIY it. I ran the motor drivers without heatsinks initially, which killed my drives unexpectedly. I made my own heatsinks with a sheet of aluminium now, but this 300eur waste could have been avoided had the drivers been included with magnets from the start.
+Edit: Adding this after working with ODrives for two axes: Although the hardware appears great, the user experience of purchasing these drives isn't ideal. Everything is an added cost: the metal heatsinks, magnets, wiring etc. I ran the motor drivers without heatsinks initially, which overheated my drives. 
 
 I compared the ODrive with some alternatives like:
 - MJBots Moteus C1/R4/N1/X1 - probably the closest to what I wanted
@@ -86,7 +86,7 @@ Once the decision was made, I waited a few months to build some budget and email
 <img style="max-width: 450px; max-height: 450px" src="/assets/fanuc_retrofit/shipped.png">
 </div>
 
-**Disclaimer:** When I reached out to ODrive, I asked if they would be interested in offering a discount code in exchange for the publicity of this post/linkedin/tutorials, which they accepted. No money exchanged hands and I still paid multiple hundreds of euros for all the parts. My opinions here and elsewhere were not reviewed by ODrive before posting. I am also not particularly happy in the end all things considered, and am not sure I will purchase all my arm drivers from them. Realistically I cannot rely on them long term for sourcing drivers, because the ~150eur/pc + magnets and wiring price makes any retrofit financially challenging.
+**Disclaimer:** When I reached out to ODrive, I asked if they would be interested in offering a discount code in exchange for the publicity of this post/linkedin/tutorials, which they accepted. No money exchanged hands and I still paid multiple hundreds of euros for all the parts. My opinions here and elsewhere were not reviewed by ODrive before posting.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
   <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
@@ -103,7 +103,7 @@ Once the decision was made, I waited a few months to build some budget and email
   </div>
 </div>
 
-The first motor was wired up for bench testing; for the encoder I used the "compatible" AMT212B directly from ODrive, unfortunately it is more expensive than when purchased from other suppliers and adds a substantial amount of BOM cost. I may try the built in encoder or an external [magnetic encoder](https://docs.odriverobotics.com/v/latest/articles/magnetic-encoders.html) like the AS5600, MA702 or 14 bit AS5048. I would need reassurance that there is enough precision though, as well as things like [harmonic compensation](https://docs.odriverobotics.com/v/latest/manual/hardware-config.html#harmonic-compensation) that ODrive has.
+The first motor was wired up for bench testing; for the encoder I used the "compatible" AMT212B directly from ODrive, unfortunately it is more expensive than when purchased from other suppliers and adds a substantial amount of BOM cost. I may try the built in encoder (later edit: this is a dead end) or an external [magnetic encoder](https://docs.odriverobotics.com/v/latest/articles/magnetic-encoders.html) like the AS5600, MA702 or 14 bit AS5048 (later edit: these work well, but are not "absolute" as easily). I would need reassurance that there is enough precision though, as well as things like [harmonic compensation](https://docs.odriverobotics.com/v/latest/manual/hardware-config.html#harmonic-compensation) that ODrive has.
 
 Using an encoder with the ODrive directly also closes the loop and avoids time sensitive high speed calculations being done by whatever computer I place in the loop which, for a dummy like myself, is a major pitfall I am trying to avoid.
 
