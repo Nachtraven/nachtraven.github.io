@@ -43,7 +43,8 @@ Unfortunately, a lot of conversation about diy robotics has moved onto unsearcha
 
 I selected the ODrive S1 to prototype the arm, and to keep things simple I'm experimenting with their "upgraded" 16384 CPR AMT212B shaft encoder instead of going the cheaper magnetic route. I was happy to see separate mosfets, and a braking resistor, as I did not know if my motors would be thermally limited. I remember when the project used to be open source, but if it works with less hassle than the failed previous times I wanted to control a three phase motor I'll be happy.
 
-Edit: Adding this after working with ODrives for two axes: Although the hardware appears great, the user experience of purchasing these drives isn't ideal. Everything is an added cost: the metal heatsinks, magnets, wiring etc. I ran the motor drivers without heatsinks initially, which overheated my drives. 
+Edit: Adding this after working with ODrives for two axes: The hardware is great, I got the motors spinning in an afternoon, with the encoders, and minimal effort under ubuntu 24 and 26. I believe the user experience of purchasing these drives could be better: everything is an added cost, metal heatsinks, magnets, wiring etc. I ran the motor drivers without heatsinks initially, which overheats my drives. I will be equipping them with a DIY aluminium plate to cool them. 
+
 
 I compared the ODrive with some alternatives like:
 - MJBots Moteus C1/R4/N1/X1 - probably the closest to what I wanted
@@ -68,13 +69,16 @@ There is also the Makerbase MKS XRIVE MINI.
 - These are available on Aliexpress, and are a copy of the older OSS ODrive variant 3.6. The MKS XDrive MINI costs about 37eur, and **includes a magnet, braking resistor and wiring harnesses.**
 
 
+Overall the ODrive was the closest to being plug and play. My goal is not to become a hardware person, but to focus on the software development, and so far ODrive and the daisychaining of CAN modules, as well as the python library and wider compatibility have been very good.
+
+
 ### Comprehensive projects
 
 There is also the excellent **ExcessiveOverkill** :
 - [Youtube](https://www.youtube.com/@ExcessiveOverkill)
 - [Github project about using the fanuc encoders and driving the motors](https://github.com/ExcessiveMotion)
 
-I believe this is most likely the best route for future endeavours
+I believe this is most likely the best route for future endeavours - he is clearly an expert at what he does and has much more skills in PCB design, electronics and the actual hardware.
 
 ---
 
@@ -86,7 +90,7 @@ Once the decision was made, I waited a few months to build some budget and email
 <img style="max-width: 450px; max-height: 450px" src="/assets/fanuc_retrofit/shipped.png">
 </div>
 
-**Disclaimer:** When I reached out to ODrive, I asked if they would be interested in offering a discount code in exchange for the publicity of this post/linkedin/tutorials, which they accepted. No money exchanged hands and I still paid multiple hundreds of euros for all the parts. My opinions here and elsewhere were not reviewed by ODrive before posting.
+**Disclaimer:** When I reached out to ODrive, I asked if there could be a discount code as I am a student, in exchange for the publicity of this post/linkedin/tutorials and sharing with people at my university, which they accepted. No money exchanged hands and I still paid over a thousand euros for all the parts. My opinions were not reviewed by ODrive before posting.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
   <div class="imgcap" style="flex: 1 1 45%; margin: 0;">
@@ -103,10 +107,11 @@ Once the decision was made, I waited a few months to build some budget and email
   </div>
 </div>
 
-The first motor was wired up for bench testing; for the encoder I used the "compatible" AMT212B directly from ODrive, unfortunately it is more expensive than when purchased from other suppliers and adds a substantial amount of BOM cost. I may try the built in encoder (later edit: this is a dead end) or an external [magnetic encoder](https://docs.odriverobotics.com/v/latest/articles/magnetic-encoders.html) like the AS5600, MA702 or 14 bit AS5048 (later edit: these work well, but are not "absolute" as easily). I would need reassurance that there is enough precision though, as well as things like [harmonic compensation](https://docs.odriverobotics.com/v/latest/manual/hardware-config.html#harmonic-compensation) that ODrive has.
+The first motor was wired up for bench testing; for the encoder I used the "compatible" AMT212B directly from ODrive, unfortunately it is more expensive than when purchased from other suppliers and adds a substantial amount of BOM cost. I may try the built in encoder (later edit: this is a dead end) or an external [magnetic encoder](https://docs.odriverobotics.com/v/latest/articles/magnetic-encoders.html) like the AS5600, MA702 or 14 bit AS5048 (later edit: these work well, but are not "absolute" as easily - also require a housing and are more hassle). Odrive has very nice features like [harmonic compensation](https://docs.odriverobotics.com/v/latest/manual/hardware-config.html#harmonic-compensation) and anti-cogging.
 
 Using an encoder with the ODrive directly also closes the loop and avoids time sensitive high speed calculations being done by whatever computer I place in the loop which, for a dummy like myself, is a major pitfall I am trying to avoid.
 
+---
 
 Assembly of all the parts is greatly simplified by having the right tools. Over the years, I've acquired a lot of crimping "sets" as well as some tools of varying quality, but that did not prevent the absolute headache that is JST crimp connectors. [This is a useful explanation of JST connectors from IOT Expert](https://iotexpert.com/jst-connector-crimping-insanity/).
 
@@ -146,16 +151,24 @@ And here is a list of other people with similar projects that may be of interest
 
 Robotics hardware is a "solved" problem insofar as robotics have been able to hit <0.1mm accuracy repeatibly for quite some time, on the condition you have the budget. Current challenges lay in the software side, and this is recognized as what is driving future robotics use. Consortiums such as the [ARM institute](https://arminstitute.org/projects/) have some interesting projects. Robots, like nearly all CNC machines, have also always been "blind" to their environment. I consider this a major exploration direction for this project.
 
-Long term, for control I can run the CANbus either from the main computer or an MCU.
+For basic control I can run the CANbus either from the main computer or an MCU.
 I believe a structure of CAN <-> MCU <-> Linux may make more sense in order to better enforce safety and timings, but that's TBD. Short term the CAN ODrives will run directly from the main PC.
 
-Short list of relevant topics:
+To achieve co-ordinated movement I will use:
+- MoveIt 2 as mentioned before as a motion planner/IK motor that can be used with ROS
+- ROS2 with a URDF of the LR Mate 200iL
+- A VLA to output end-effector delta pose commands (some seem to also do velocity and rotations - my starting point here is roboneuron/openvla)
 
-- SocketCAN for python control
-- ROS 2 + ros2_canopen/ros2_control
-- ROS-Industrial is new to me but seems to have active industrial backing
-- MoveIt 2 as mentioned before as a motion planner can be used with ROS
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 450px" src="/assets/fanuc_retrofit/RoboNeuron_stack.png">
+</div>
 
+<div class="imgcap">
+<img style="max-width: 450px; max-height: 450px" src="/assets/fanuc_retrofit/openvla_model.png">
+</div>
+
+---
+Some general notes from prior research:
 Technologies that are relevant for manufacturing. Many more in the MultiRobot MultiMachine Interoperability PDF:
 
 - MTConnect, it can interface with ROS-Industrial
@@ -171,28 +184,14 @@ Machine tending in ROS seems to lack a lot of public sources.
 - https://github.com/mehmet-engineer/ROS_Machine_Tending
 
 
-Option 1: Lean & direct (good for bring-up)
-- SocketCAN + can-utils + python-can
-- Your own kinematics/trajectory code (or very simple scripted moves)
-- External integration via Modbus TCP or simple TCP/REST service
-
-Option 2: ROS2 “standard modern robot”
-- SocketCAN/CANopen driver → ros2_control hardware interface → controllers
-- MoveIt 2 for planning + execution
-- External: OPC UA (PLC), MTConnect (CNC status), rosbridge (web UI), MQTT (plant messaging)
-
-Option 3: Industrial cell integration focus
-- Same ROS2 control core as option 2
-- Add ROS-Industrial-aligned tooling & conventions
-- Cell orchestration via MTConnect and/or OPC UA + hardwired safety
-
 
 ---
-
-### Moving the arm
+## Moving the arm
 
 Once I had tested the ODrive S1 with the on axis encoder, as well as the built-in magnetic encoder of the two drivers I bought, I placed them into the arm for some tests, as I do not have the budget at the time of writing to purchase all the controllers required for all the axis.
 
 <div class="imgcap">
 <img src="/assets/fanuc_retrofit/arm_movement.gif">
 </div>
+
+These movements are as far as I have gotten as of end of Sept - a fully equipped arm would still require another +/- 1000eur!
