@@ -164,7 +164,7 @@ To achieve co-ordinated movement I will use:
 </div>
 
 <div class="imgcap">
-<img style="max-width: 450px; max-height: 450px" src="/assets/fanuc_retrofit/openvla_model.png">
+<img style="max-width: 450px; max-height: 450px" src="/assets/fanuc_retrofit/openvla_model.jpg">
 </div>
 
 ---
@@ -191,7 +191,7 @@ Machine tending in ROS seems to lack a lot of public sources.
 Once I had tested the ODrive S1 with the on axis encoder, as well as the built-in magnetic encoder of the two drivers I bought, I placed them into the arm for some tests, as I do not have the budget at the time of writing to purchase all the controllers required for all the axis.
 
 <div class="imgcap">
-<img src="/assets/fanuc_retrofit/arm_movement.gif">
+<img src="/assets/fanuc_retrofit/arm_movement_cropped_reworked.gif">
 </div>
 
 These movements are as far as I have gotten as of end of Sept - a fully equipped arm would still require another +/- 1000eur!
