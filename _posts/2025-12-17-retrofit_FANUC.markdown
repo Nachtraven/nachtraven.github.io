@@ -2,19 +2,19 @@
 layout: post
 comments: false
 title: "Retrofit - FANUC Robot arm"
-excerpt: "Retrofit and modernization of FANUC Lr Mate 200 iL"
+excerpt: "Custom electronics and control for FANUC Lr Mate 200 iL"
 date:   2025-12-17 19:00:00
 mathjax: false
 
 featured: true
 featured_rank: 1
-featured_image: /assets/fanuc_retrofit/final_setup.jpg
+featured_image: /assets/fanuc_retrofit/arm_blur.jpg
 featured_alt: "Fanuc motor ODrive control WIP"
 ---
 
 [Previously mentioned in this blog post, my LR Mate 200 il Fanuc arm](https://nachtraven.github.io/2024/11/12/FANUC/) is now in the process of being retrofitted to be ran with modern electronics and controls, in parallel with a LiDAR and camera system.
 
-I am motivated by the prospects of automation in industry, and also because robots are fun to play with. 
+I am motivated by the prospects of automation in industry, and also because robots are fun to play with.  
 Most robots are too large to easily be moved and demo'd, or aren't industrially relevant due to their size. The LR Mate is still "portable" by a single person in a regular car or cargo bike, and if I integrate the control electronics into the arm and its base, small enough even for the most space restricted setups.
 Utilizing LiDARs and modern cameras also enables real "seeing" robots as opposed to the classical "blind" robotics that has been the status quo for decades.
 
@@ -125,10 +125,11 @@ Once all assembled and wired for a single ODrive using a USB isolator and follow
 
 ## Software control
 
-For software control there are multiple avenues. The one I am most familiar with, before doing any research, is ROS2, and I wanted good 3D visualizations in something like Foxglove. LinuxCNC is also an option for executing G-Code
+For software control there are multiple avenues. The one I am most familiar with, before doing any research, is ROS2, and I wanted good 3D visualizations in something like Foxglove which I have also used before. LinuxCNC is also an option for executing G-Code and appears to have some 6 axis robot arm support.  
+
 In the current configuration, commands are sent over CAN to the motors.
 
-Foxglove is an excellent method for visualizing from ROS, although they moved away from being opensource/free. 
+Foxglove is an excellent method for visualizing from ROS, although they moved away from being opensource/free. EDIT: I am now using RViz and experimenting with Rerun.
 ROS also has some tutorials for 6 axis robotcs:
 
 - [6 Axis robot in ROS](https://control.ros.org/rolling/doc/ros2_control_demos/example_7/doc/userdoc.html)
@@ -145,14 +146,19 @@ There is also the excellent [Robot Academy](https://robotacademy.net.au/)
 And here is a list of other people with similar projects that may be of interest:
 - [manipylator](https://hackaday.io/project/197770-manipylator/log/240946-manipylator-part-2-simulation-motion-planning)
 
+#### Kinematics
+
+Something I did not realize before starting this process was that the inverse kinematics, and monitoring for self colisions, would be a topic that has a closed form solution, and that is already available.
+
+For this arm, I am using [Moveit2](https://github.com/moveit/moveit2) 
+
 ---
 
 ### Getting to the interesting bits
 
 Robotics hardware is a "solved" problem insofar as robotics have been able to hit <0.1mm accuracy repeatibly for quite some time, on the condition you have the budget. Current challenges lay in the software side, and this is recognized as what is driving future robotics use. Consortiums such as the [ARM institute](https://arminstitute.org/projects/) have some interesting projects. Robots, like nearly all CNC machines, have also always been "blind" to their environment. I consider this a major exploration direction for this project.
 
-For basic control I can run the CANbus either from the main computer or an MCU.
-I believe a structure of CAN <-> MCU <-> Linux may make more sense in order to better enforce safety and timings, but that's TBD. Short term the CAN ODrives will run directly from the main PC.
+For basic control I run CANbus, and am aiming to work with an intermediary running ROS and Moveit, to separate my laptop from the direct arm control. Data goes CAN <-> MCU <-> Linux.
 
 To achieve co-ordinated movement I will use:
 - MoveIt 2 as mentioned before as a motion planner/IK motor that can be used with ROS
@@ -168,8 +174,9 @@ To achieve co-ordinated movement I will use:
 </div>
 
 ---
+
 Some general notes from prior research:
-Technologies that are relevant for manufacturing. Many more in the MultiRobot MultiMachine Interoperability PDF:
+Technologies that are relevant for manufacturing; Many more in the MultiRobot MultiMachine Interoperability PDF:
 
 - MTConnect, it can interface with ROS-Industrial
 - OPC Unified Architecture: open62541, opcua_ros2_bridge, ros2-opcua
@@ -183,15 +190,14 @@ Technologies that are relevant for manufacturing. Many more in the MultiRobot Mu
 Machine tending in ROS seems to lack a lot of public sources.
 - https://github.com/mehmet-engineer/ROS_Machine_Tending
 
-
-
 ---
+
 ## Moving the arm
 
 Once I had tested the ODrive S1 with the on axis encoder, as well as the built-in magnetic encoder of the two drivers I bought, I placed them into the arm for some tests, as I do not have the budget at the time of writing to purchase all the controllers required for all the axis.
 
 <div class="imgcap">
-<img src="/assets/fanuc_retrofit/arm_movement_cropped_reworked.gif">
+<img src="/assets/fanuc_retrofit/arm_movement_blur.gif">
 </div>
 
 These movements are as far as I have gotten as of end of Sept - a fully equipped arm would still require another +/- 1000eur!

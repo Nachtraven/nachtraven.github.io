@@ -12,25 +12,36 @@ featured_image: /assets/jubilee-3D-printer/3D_diy/waterjet.jpg
 featured_alt: "My experience with CNCs - this waterjet isn't desktop grade"
 ---
 
-I have loved the idea of at home CNC machining for a long time. In the past, the niche of 2000-5000 eur machines was the realm of the motivated DIYer, retrofitting a manual mill or perhaps buying an import portal mill out of aluminium. Similarly to 3D printers, very little effort and solutions existed for user friendlyness and integration: no probing, ATCs, tool length detectors, cooling or air burst, or even enclosures.
-Some tried to fix pieces of this: the [DMC2](https://shariffdmc.com/product/dmc2-cnc/) and Millenium Machines Milo/[Ratrig mill](https://ratrig.com/products/rat-rig-mill) came and went, and although the DMC2 seems interesting, it remains a kit that is not as user friendly (or marketed as hard) as the trendsetter in the mini CNC category: Makera and their [Carvera air](https://eu.makera.com/products/carvera-air). I have gotten the opportunity to see these in person working, and was not particularly impressed. Maybe the pro is better?
+This page is a work in progress - I am busy formatting this and adding from my personal notes.  
+
+
+I have loved the idea of lower cost, garage capable CNC machining for a long time. In the past, the niche of 2000-5000 eur machines was the realm of the motivated DIYer, retrofitting a manual mill or perhaps buying an import portal mill made out of aluminium. Similarly to 3D printers, very little effort and solutions existed for user friendlyness and integration: no probing, ATCs, tool length detectors, cooling or air burst, or even enclosures. Often the drivers executed simple GCode.  
+
+Some tried to fix pieces of this: the [DMC2](https://shariffdmc.com/product/dmc2-cnc/) and Millenium Machines Milo/[Ratrig mill](https://ratrig.com/products/rat-rig-mill) came and went, and although the DMC2 seems interesting, it remains a kit that is not as user friendly (or marketed as hard) as the trendsetter in the mini CNC category: Makera and their [Carvera air](https://eu.makera.com/products/carvera-air). I have gotten the opportunity to see these in person working, and was not particularly impressed. Maybe the pro is better?  
 
 These compact 3-axis, often with an optional 4-axis machines come in at an "affordable" price with existing software support. However I find the explosion of 5 axis mini machines fascinating, and I will compare those bellow - it is difficult to collate details on these because of their nature of using images (!!) in their product descriptions, and to simply not give certain pieces of information that need to be gleamed from watching videos.
 
-Additionally, it appears the problem of CAM has been "solved" (in a way) by these 5 axis machine companies using "AI" CAM. Something I believe is very relevant, but I am dubious about where the CAM runs, and the need to upload my designs to the cloud.
+Additionally, it appears the problem of CAM has been "solved" (in a way) by these 5 axis machine companies using "AI" CAM. Something I believe is very interesting and would love to test, but I am dubious about where the CAM runs, and the need to upload my designs to the cloud.
+
+If you're in europe and want a more serious machine (and have a larger budget), I've been drooling over machines like those from [Richner-Precision](https://www.richner-precision.ch/) and HAAS. Tormach aren't really easily obtained here.
+
 
 ## Reviews
 
-No money was exchanged, I have not used these machines, nor am I connected in any way to the manufacturers. I am comparing specs here because I couldn't find them in text form online - feel free to reach out if I'm wrong, or missing details. *All these products have million(s) in funding,* and it is important to note that **a lot of reviewers get a kickback from purchases (I have seen 5% and sometimes more) meaning they have a very large incentive to push you towards buying. They'd stand to make €250+ per sale!**
+No money was exchanged, I have not used these machines, nor am I connected in any way to the manufacturers. I am comparing specs here because I couldn't find them in text form online - feel free to reach out if I'm wrong, or missing details. 
+
+*All these products have million(s) in funding,* and it is important to note that **a lot of reviewers get a kickback from purchases (I have seen 5% and sometimes more) meaning they have a very large incentive to push you towards buying. They'd stand to make €250+ per sale!**
+
+Many "reviews" are not done by machinists and are glorified demos/marketing material.
 
 
-## CNC comparison grid
+<!-- ## CNC comparison grid -->
 
-| Machine | Axes and machining mode | Work area or maximum workpiece | Weight | Spindle power | Spindle speed | Claimed positioning accuracy | Motion motors | Linear motion and guides | Tool changing | Price |
+<!-- | Machine | Axes and machining mode | Work area or maximum workpiece | Weight | Spindle power | Spindle speed | Claimed positioning accuracy | Motion motors | Linear motion and guides | Tool changing | Price |
 |---|---|---:|---:|---:|---:|---|---|---|---|---:|
 | **Makera Carvera** | 3-axis; optional simultaneous 4th axis | 3-axis: 360x240x140 mm; rotary: Ø92x240 mm | ~50 kg | 200 W | 0-15,000 RPM | Motor resolution: 0.01 mm; spindle runout: <0.01 mm | Servos on X, Y and Z; NEMA 17 on rotary axis | Ball screws and linear rails | 6-tool ATC | ~$5500 |
 | **Makera Carvera Air** | 3-axis; optional simultaneous 4th axis | 3-axis: 300x200x130 mm; rotary: Ø92x200 mm | ~30 kg | 200 W | 0-13,000 RPM | Spindle runout: <0.01 mm; 0.01mm "Resolution" | Closed-loop steppers | Hardened linear rods; T8 threaded rods | Manual "quick-change" system | ~$2700 regular |
-| **Makera Z1** | 3-axis; optional 4th axis | 3-axis: 200x200x100; rotary: 90x150 | ~17kg | 150 W | 0-13000 | Spindle runout 0.01mm, 0.02mm "Resolution" | Steppers | One-piece cast frame; linear rails | Manual quick-change | ~$1100~ |
+| **Makera Z1** | 3-axis; optional 4th axis | 3-axis: 200x200x100; rotary: 90x150 | ~17kg | 150 W | 0-13000 | Spindle runout 0.01mm, 0.02mm "Resolution" | Steppers | One-piece cast frame; linear rails | Manual quick-change | ~$1100~ | -->
 
 
 <!-- | **NestWorks C500** | 3-axis; optional simultaneous 4th axis | ~230x213x128 mm with ATC; manufacturer information on the larger non-ATC area is unclear | 210 lb / 95 kg | 800 W | Up to 18,000 RPM | ±0.02 mm | Closed-loop NEMA 23 stepper motors | Precision linear guides and ball screws | ATC with RFID tool identification | $2,599 VIP; $2,799 early-bird; $4,699 MSRP |
@@ -72,33 +83,29 @@ Overall this comparison left out some more obscure and difficult to price machin
 
 ### 3/4 Axis machining
 
-The **Carvera** vs **NestWorks C500** is an interesting comparison with the C500 being significantly heavier and with a lot more spindle power, although not having seros. It shares the ball screws, linear guides, automatic tool changer and MQL system.
+The **Carvera** vs **NestWorks C500** is an interesting comparison with the C500 being significantly heavier and with a lot more spindle power, although not having seros. It shares the ball screws, linear guides, automatic tool changer and MQL system.-->
 
-### The 5-axis machines
 
-These are the most interesting to me by their promised capabilities and the fact that they push the software side: I'm really hoping that their existance will bring 4 and 5 axis into the mainstream for both control and the CAM side.
+## The OG
 
-The **IFMAKER M5** has a high power spindle and heavy cast-iron structure, servo drives and 17-bit absolute encoders.
+The PocketNC appeared a few years ago, during a time when 3D printers were still basic. They delivered a very interesting product that I ended up really wanting to try to replicate at the time. It is genuinely light and desktop capable, and made in the USA. It is a prototyping platform, akin to early 3D printers, although with a very high cost, and the same inconveniences of early printers. The 200 W spindle, manual tool changes, open-frame construction, stepper motors and worm-driven rotary axes are all more in line with the price point. It is more realistic with its tolerances, but I look forward to see what chinese production and supply chain dominance can bring for more affordable prices.
 
-The **TOPFAB TF500** 
+The Pocket NC is more mature but has a seemingly small userbase. The control software and publicly accessible machining simulator are nice additions, and it does not rely on any proprietary AI stuff. 
 
-The **InfiMaker K1** 
-
-The **Xhorse3D WM-100** 
-
-The **Pocket NC** is genuinely light at approximately 14 kg. It is however more of a prototyping platform, akin to early 3D printers, although with a very high cost: the 200 W spindle, manual tool changes, open-frame construction, stepper motors and worm-driven rotary axes. It is more realistic with its tolerances though.
-
-The Pocket NC is more mature but has a seemingly small userbase. The control software and publicly accessible machining simulator are nice additions, and it does not rely on any proprietary AI stuff. -->
 
 ## Important notes
 
-- **XYZ travel does not necessarily equal usable 5-axis work volume.** Rotary fixtures, spindle clearance, cutting-tool length and automatic tool-changer placement can reduce the actual machining envelope. Some, such as the PocketNC, have through axis stock holding possibilities, enabling machining of longer parts.
+- **XYZ travel does not necessarily equal usable 5-axis work volume** Rotary fixtures, spindle clearance, cutting-tool length and automatic tool-changer placement can reduce the actual machining envelope. Some, such as the PocketNC, have through axis stock holding possibilities, enabling machining of longer parts.
 
-- **Machine weight is closely linked to rigidity given the same construction.** All the 3 axis machines chose a fixed portal, and some of the 5 axis machines just add a double rotary stage. The portal construction, as opposed to the classic column mills seen in regular 3 axis machines, gives the highest stifness to weight ratio. 
+- **Machine weight is closely linked to rigidity given the same construction** All the 3 axis machines chose a fixed portal, and some of the 5 axis machines just add a double rotary stage. The portal construction, as opposed to the classic column mills seen in large 3 axis machines, gives the highest (to my knowledge) stifness to weight ratio for a simple design. The 5 axis machines with a similar design to the PocketNC have some limitations but are in any event limited to light metals/woods/plastics. 
 
-- **I wouldn't trust any of these for heavy/hard metals - and don't think you can use these to make money.** Given that I have not used any of these, I can't say for sure, but I am nearly certain that you wouldn't aim to do much more than aluminium on a regular basis. Steels appear possible but seem very slow, and with the stickout lengths in the videos, I doubt very accurate.
+- **I wouldn't trust any of these for heavy/hard metals** I also have a hard time seeing these as able to make money. Given that I have not used any of these, I can't say for sure, but I am nearly certain that you wouldn't aim to do much more than aluminium on a regular basis. Steels appear possible but seem very slow, and with the stickout lengths in the videos, I doubt very accurate. There are claims of Ti, but I'd take those with a grain of salt.
 
-Additionally, making money using these machines in general is not the goal. Prototyping and learning maybe, but serious buyers wouldn't want a poorly made 5 axis part. The 3 axis machines however appear capable of making useful parts repeatedly in aluminium and it appears that small batches are very feasible.
+Additionally, making money using these machines in general is not the goal. Prototyping and learning maybe, but serious buyers wouldn't want a poorly made 5 axis part (and most wouldn't be able to run the QC to be able to sell these. Maybe for parts used internally only?). The 3 axis machines however appear capable of making useful parts repeatedly in aluminium and it appears that small batches are very feasible.
+
+---
+
+Overall, I look forward to trying one of these once some fablab, university or maker buys one near me.
 
 ### Links
 
@@ -115,3 +122,6 @@ IFMAKER M5 [official website](https://www.ifmaker.xyz/) and [kickstarter](https:
 InfiMaker K1 [official website](https://infimaker.com/pages/infimaker-k1) and [kickstarter](https://www.kickstarter.com/projects/infimaker/infimaker-k1-the-pro-grade-desktop-5-axis-cnc)
 
 PocketNC [official website](https://www.pentamachine.com/all-products/p/pocket-nc-v2-10) and [their kickstarter ended a decade ago!](https://www.kickstarter.com/projects/1090944145/pocket-nc-the-first-5-axis-cnc-mill-for-your-deskt)
+
+
+Overall this comparison left out some more obscure and difficult to price machines like [Yornew](https://www.yornew.com/en/), toys like [5axismaker](https://5axismaker.co.uk/) that have open loop steppers and are focused on foams/soft woods, and much larger and higher cost professional machines.
