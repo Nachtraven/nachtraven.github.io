@@ -8,7 +8,7 @@ mathjax: false
 
 featured: true
 featured_rank: 1
-featured_image: /assets/fanuc_retrofit/arm_blur.jpg
+featured_image: /assets/fanuc_retrofit/arm_blur_crop.jpg
 featured_alt: "Fanuc motor ODrive control WIP"
 ---
 
